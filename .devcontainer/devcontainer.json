@@ -1,0 +1,50 @@
+{
+  "name": "Node.js Development Container Template",
+  "dockerFile": "Dockerfile",
+
+  "features": {
+    "node": {
+      "version": "lts",
+      "nodeGypDependencies": true
+    }
+  },
+
+  "customizations": {
+    "settings": {
+      "files.eol": "\n",
+      "editor.formatOnSave": true,
+      "remote.extensionKind": {
+        "ms-azuretools.vscode-docker": "workspace"
+      }
+    },
+    "vscode": {
+      "extensions": [
+        "davidanson.vscode-markdownlint",
+        "esbenp.prettier-vscode",
+        "eamodio.gitlens",
+        "Gruntfuggly.todo-tree",
+        "ms-azuretools.vscode-docker",
+        "streetsidesoftware.code-spell-checker",
+        "vscode-icons-team.vscode-icons"
+      ],
+      "settings": {
+        "workbench.iconTheme": "vscode-icons"
+      }
+    }
+  },
+  // Use 'forwardPorts' to make a list of ports inside the container available locally.
+  "forwardPorts": [5173],
+  "appPort": [5173],
+  "portsAttributes": {
+    "5173": {
+      "label": "Frontend App",
+      "onAutoForward": "openBrowser"
+    }
+  },
+
+  // Use 'postCreateCommand' to run commands after the container is created.
+  "postCreateCommand": ".devcontainer/scripts/postCreate.sh",
+
+  // Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
+  "remoteUser": "root"
+}
