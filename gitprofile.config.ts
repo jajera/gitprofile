@@ -102,7 +102,7 @@ const CONFIG = {
     dribbble: '',
     behance: '',
     medium: '',
-    dev: '',
+    dev: 'https://dev.to/jajera',
     stackoverflow: '', // example: '1/jeff-atwood'
     skype: '',
     telegram: '',
