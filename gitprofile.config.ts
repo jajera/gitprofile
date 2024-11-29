@@ -91,7 +91,7 @@ const CONFIG = {
   social: {
     linkedin: 'john-ajera',
     twitter: '',
-    mastodon: '',
+    mastodon: 'jajera@mastodon.social',
     researchGate: '',
     facebook: '',
     instagram: '',
