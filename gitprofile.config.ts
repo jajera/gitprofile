@@ -174,6 +174,10 @@ const CONFIG = {
   ],
   certifications: [
     {
+      name: 'AWS Certified SysOps Administrator - Associate',
+      year: 'December 2024',
+    },
+    {
       name: 'GitLab Certified Project Management Associate',
       year: 'March 2023',
     },
@@ -183,7 +187,7 @@ const CONFIG = {
     },
     {
       name: 'Gitlab Certified CI/CD Associate',
-      year: 'March 2023',
+      year: 'February 2023',
     },
     {
       name: 'Red Hat Delivery Specialist Automation II',
