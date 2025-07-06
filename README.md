@@ -71,10 +71,12 @@ The app uses a centralized configuration file to define sources and filtering ru
 ### Configuration Options
 
 #### Sources
+
 - **`users`**: Array of GitHub usernames to scan
 - **`organizations`**: Array of GitHub organization names to scan
 
 #### Filters
+
 - **`includePatterns`**: Patterns that determine which repositories to include
   - `has_pages`: Include repositories with GitHub Pages enabled
   - `terraform-*`: Include repositories starting with "terraform-"
@@ -83,6 +85,7 @@ The app uses a centralized configuration file to define sources and filtering ru
 - **`excludePatterns`**: Wildcard patterns for repository names to exclude
 
 #### Categorization
+
 - **`webApps`**: Criteria for identifying web applications
 - **`terraformModules`**: Criteria for identifying Terraform modules
 - **`documentation`**: Criteria for identifying documentation sites
@@ -92,11 +95,13 @@ The app uses a centralized configuration file to define sources and filtering ru
 The repository data is automatically updated via GitHub Actions:
 
 ### Schedule
+
 - **Every 6 hours**: Automatic updates via cron schedule
 - **Manual trigger**: Can be triggered manually from GitHub Actions tab
 - **Config changes**: Automatically runs when `config.json` is modified
 
 ### Update Process
+
 1. GitHub Action reads `config.json`
 2. Fetches repository data from GitHub API (authenticated)
 3. Applies filtering and categorization rules
@@ -105,6 +110,7 @@ The repository data is automatically updated via GitHub Actions:
 6. GitHub Pages automatically rebuilds and deploys
 
 ### Benefits
+
 - **No rate limits**: Pre-generated data eliminates client-side API calls
 - **Fast loading**: Static JSON file loads instantly
 - **Always current**: Regular updates ensure fresh data
@@ -115,23 +121,27 @@ The repository data is automatically updated via GitHub Actions:
 ### Quick Start
 
 1. **Clone the repository**:
+
    ```bash
    git clone https://github.com/jajera/gitprofile.git
    cd gitprofile
    ```
 
 2. **Install dependencies**:
+
    ```bash
    npm install
    ```
 
 3. **Start the web server**:
+
    ```bash
    npm start
    ```
 
 4. **Open in browser**:
-   ```
+
+   ```plaintext
    http://localhost:3000
    ```
 
@@ -140,11 +150,13 @@ The repository data is automatically updated via GitHub Actions:
 You can run the repository update script locally for development and testing:
 
 1. **Set up GitHub token** (optional but recommended):
+
    ```bash
    export GITHUB_TOKEN=your_github_token_here
    ```
 
 2. **Run the update script**:
+
    ```bash
    # Update repository data
    npm run update
@@ -178,6 +190,7 @@ You can run the repository update script locally for development and testing:
 ## 📂 Repository Detection
 
 The app includes repositories that meet any of these criteria:
+
 - Has GitHub Pages enabled (`has_pages: true`)
 - Name starts with `terraform-` (Terraform modules)
 - Has `terraform-module` topic/tag
@@ -186,21 +199,25 @@ The app includes repositories that meet any of these criteria:
 ## 🎨 Categorization Logic
 
 ### Web Applications
+
 - Has GitHub Pages enabled
 - Contains web app topics: `web-app`, `webapp`, `pwa`, `react`, `vue`, `angular`, `javascript`, `typescript`
 - Name or description contains app keywords: `app`, `tool`, `converter`, `generator`, `calculator`, `game`
 
 ### Terraform Modules
+
 - Name starts with `terraform-`
 - Has `terraform-module` topic
 
 ### Documentation & Tools
+
 - Has GitHub Pages enabled
 - Doesn't match web app or Terraform module criteria
 
 ## 🔧 Manual Repository Update
 
 ### GitHub Actions
+
 To manually trigger a repository data update:
 
 1. Go to the **Actions** tab in your GitHub repository
@@ -209,6 +226,7 @@ To manually trigger a repository data update:
 4. Wait for the action to complete
 
 ### Local Development
+
 ```bash
 # Update repository data locally
 npm run update
@@ -219,7 +237,7 @@ GITHUB_TOKEN=your_token npm run update:dev
 
 ## 📁 Project Structure
 
-```
+```plaintext
 ├── docs/
 │   ├── index.html          # Main HTML file
 │   ├── styles.css          # CSS with dark mode support
@@ -241,6 +259,7 @@ GITHUB_TOKEN=your_token npm run update:dev
 ## 🎨 Dark Mode
 
 The app supports dark mode with:
+
 - **System Preference**: Automatically detects system preference
 - **Manual Toggle**: Sun/moon button in header
 - **Persistent**: Remembers your choice in localStorage
@@ -258,24 +277,28 @@ The app supports dark mode with:
 ## 🌟 Key Features
 
 ### GitHub Actions Integration
+
 - Scheduled updates every 6 hours
 - Authenticated API access for higher rate limits
 - Automatic deployment on data changes
 - Manual trigger support
 
 ### Local Development Support
+
 - Standalone update script
 - NPM scripts for easy execution
 - Environment variable support
 - Detailed logging and error handling
 
 ### Smart Filtering
+
 - Include/exclude specific repositories
 - Pattern-based filtering (wildcards)
 - Topic-based categorization
 - Flexible configuration
 
 ### Performance Optimizations
+
 - Pre-generated static data
 - No client-side API calls
 - Intelligent caching
@@ -284,6 +307,7 @@ The app supports dark mode with:
 ## 📊 Data Structure
 
 The generated `repositories.json` includes:
+
 - Repository metadata (name, description, topics, etc.)
 - Categorization information
 - GitHub Pages URLs
