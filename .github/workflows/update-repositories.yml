@@ -43,10 +43,13 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: node scripts/update-repositories.js
 
+      - name: Configure Git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
       - name: Commit updated data
         run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
           git add docs/repositories.json docs/config.json
           if git diff --staged --quiet; then
             echo "No changes to commit"
