@@ -12,12 +12,14 @@ This directory contains the update scripts for the GitHub Pages Index.
 ### Setup
 
 1. Install dependencies from the project root:
+
    ```bash
    cd ..
    npm install
    ```
 
 2. Create a `.env` file in the project root or export your GitHub token:
+
    ```bash
    export GITHUB_TOKEN=your_github_token_here
    ```
