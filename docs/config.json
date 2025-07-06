@@ -7,23 +7,41 @@
   },
   "sources": {
     "users": ["jajera"],
-    "organizations": ["tfstack", "jajera"]
+    "organizations": ["actionsforge", "cloudbuildlab", "jdevto", "tfstack"]
   },
   "filters": {
     "includePatterns": [
       "has_pages",
       "terraform-*",
-      "topic:terraform-module"
+      "actions-*",
+      "topic:github-action",
+      "topic:terraform-module",
+      "topic:devcontainer-feature",
+      "features"
     ],
     "excludeRepositories": [
       "gitprofile",
       ".github",
-      "private-repo-example"
+      "actions-commitmsg-conform",
+      "actions-go-test",
+      "actions-golangci-lint",
+      "actions-govulncheck",
+      "actions-markdown-lint",
+      "actions-terraform-docs-generator",
+      "actionsforge.github.io",
+      "devcontainers.github.io",
+      "jekyll",
+      "mkdocs",
+      "mkdocs-demo",
+      "sveltekit"
     ],
     "excludePatterns": [
       "archive-*",
       "backup-*",
       "test-*"
+    ],
+    "excludeDevcontainerFeatures": [
+      "devcontainer-template"
     ]
   },
   "categorization": {
@@ -38,6 +56,18 @@
     "documentation": {
       "topics": ["documentation", "docs", "wiki", "guide", "tutorial"],
       "keywords": ["docs", "guide", "tutorial", "wiki", "documentation"]
+    },
+    "githubActions": {
+      "namePrefix": "actions-",
+      "topics": ["github-action", "action", "actions"]
+    },
+    "devcontainerFeatures": {
+      "nameExact": "features",
+      "repo": {
+        "owner": "jajera",
+        "name": "features"
+      },
+      "topics": ["devcontainer", "devcontainer-feature", "devcontainer-features"]
     }
   },
   "settings": {
