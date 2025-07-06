@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="page-title">GitHub Pages Index</title>
+    <meta name="description" id="page-description"
+        content="Centralized index for GitHub Pages deployments, Terraform modules, and documentation sites">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" id="page-favicon"
+        href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🚀</text></svg>">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header-container">
+            <div class="header-left">
+                <h1 class="header-title">
+                    <span class="header-icon" id="header-icon">🚀</span>
+                    <span id="header-title">GitHub Pages Index</span>
+                </h1>
+            </div>
+            <div class="header-right">
+                <!-- LinkedIn icon/link -->
+                <a href="https://www.linkedin.com/in/john-ajera/" class="social-link linkedin-link" target="_blank"
+                    rel="noopener" aria-label="LinkedIn">
+                    <svg class="linkedin-icon" viewBox="0 0 24 24" aria-hidden="true">
+                        <path
+                            d="M4.98 3.5C4.98 4.88 3.88 6 2.5 6S0 4.88 0 3.5 1.11 1 2.5 1 4.98 2.12 4.98 3.5zM0 8v12h5V8H0zm7.53 0H12v1.61c.72-1.2 2-1.98 3.42-1.98 3.66 0 4.33 2.41 4.33 5.55V20h-5V13.5c0-1.56-.03-3.56-2.16-3.56-2.16 0-2.49 1.69-2.49 3.44V20h-5V8h5.43z"
+                            fill="currentColor" />
+                    </svg>
+                    <span class="link-text">LinkedIn</span>
+                </a>
+
+                <!-- GitHub icon with text -->
+                <a href="https://github.com/jajera/gitprofile" class="social-link github-link" target="_blank"
+                    rel="noopener noreferrer" aria-label="GitHub">
+                    <svg class="github-icon" viewBox="0 0 24 24">
+                        <path
+                            d="M12 0.5C5.37 0.5 0 5.87 0 12.46c0 5.27 3.438 9.73 8.205 11.31.6.11.82-.26.82-.58 0-.29-.01-1.05-.02-2.07-3.338.73-4.042-1.63-4.042-1.63-.546-1.39-1.334-1.76-1.334-1.76-1.09-.75.083-.74.083-.74 1.204.09 1.84 1.25 1.84 1.25 1.07 1.85 2.807 1.32 3.492 1 .107-.79.418-1.32.762-1.62-2.665-.31-5.466-1.34-5.466-5.95 0-1.32.47-2.4 1.236-3.25-.124-.31-.536-1.57.117-3.27 0 0 1.008-.33 3.3 1.24A11.43 11.43 0 0 1 12 5.8a11.42 11.42 0 0 1 3.003.41c2.29-1.57 3.296-1.24 3.296-1.24.655 1.7.243 2.96.12 3.27.77.85 1.235 1.93 1.235 3.25 0 4.62-2.807 5.637-5.48 5.94.43.37.823 1.1.823 2.22 0 1.6-.015 2.88-.015 3.27 0 .32.218.7.825.58C20.565 22.18 24 17.74 24 12.46 24 5.87 18.627 0.5 12 0.5z" />
+                    </svg>
+                    <span class="link-text">GitHub</span>
+                </a>
+
+                <!-- Theme toggle -->
+                <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">
+                    <svg class="theme-icon sun-icon" viewBox="0 0 24 24">
+                        <circle cx="12" cy="12" r="5" />
+                        <path
+                            d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42" />
+                    </svg>
+                    <svg class="theme-icon moon-icon" viewBox="0 0 24 24">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" />
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="container">
+            <section class="welcome-section">
+                <h2 id="welcome-title">Welcome to John Ajera's Portfolio</h2>
+                <p id="welcome-description">A centralized hub for all my GitHub Pages deployments, Terraform modules,
+                    and documentation sites.
+                    This index automatically discovers and categorizes repositories across multiple organizations.</p>
+            </section>
+
+            <section class="controls">
+                <div class="search-container">
+                    <input type="text" id="search-input" class="search-input" placeholder="Search repositories...">
+                    <svg class="search-icon" viewBox="0 0 24 24">
+                        <circle cx="11" cy="11" r="8" />
+                        <path d="M21 21l-4.35-4.35" />
+                    </svg>
+                </div>
+                <div class="filter-container">
+                    <button class="filter-btn active" data-category="all">All</button>
+                    <button class="filter-btn" data-category="devcontainer-features">DevContainer Features</button>
+                    <button class="filter-btn" data-category="github-actions">GitHub Actions</button>
+                    <button class="filter-btn" data-category="terraform-modules">Terraform Modules</button>
+                    <button class="filter-btn" data-category="web-apps">Web Apps</button>
+                </div>
+            </section>
+
+            <section class="loading-section" id="loading">
+                <div class="loading-spinner"></div>
+                <p>Discovering repositories...</p>
+            </section>
+
+            <section class="error-section" id="error" style="display: none;">
+                <div class="error-icon">⚠️</div>
+                <h3>Unable to load repositories</h3>
+                <p id="error-message">Please check your internet connection and try again.</p>
+                <button id="retry-btn" class="retry-btn">Retry</button>
+            </section>
+
+            <section class="stats-section" id="stats" style="display: none;">
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-value" id="total-repos">0</div>
+                        <div class="stat-label">Total Repositories</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value" id="features-count">0</div>
+                        <div class="stat-label">DevContainer Features</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value" id="actions-count">0</div>
+                        <div class="stat-label">GitHub Actions</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value" id="terraform-count">0</div>
+                        <div class="stat-label">Terraform Modules</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value" id="web-apps-count">0</div>
+                        <div class="stat-label">Web Apps</div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="content-section" id="content">
+                <div class="category-section" id="web-apps-section">
+                    <h3 class="category-title">
+                        <span class="category-icon">🌐</span>
+                        Web Applications
+                    </h3>
+                    <div class="repos-grid" id="web-apps-grid"></div>
+                </div>
+
+                <div class="category-section" id="github-actions-section">
+                    <h3 class="category-title">
+                        <span class="category-icon">⚙️</span>
+                        GitHub Actions
+                    </h3>
+                    <div class="repos-grid" id="github-actions-grid"></div>
+                </div>
+
+                <div class="category-section" id="terraform-modules-section">
+                    <h3 class="category-title">
+                        <span class="category-icon">🏗️</span>
+                        Terraform Modules
+                    </h3>
+                    <div class="repos-grid" id="terraform-modules-grid"></div>
+                </div>
+
+                <div class="category-section" id="devcontainer-features-section">
+                    <h3 class="category-title">
+                        <span class="category-icon">🛠️</span>
+                        DevContainer Features
+                    </h3>
+                    <div class="repos-grid" id="devcontainer-features-grid"></div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p id="footer-text">&copy; 2025 GitHub Pages Index. Auto-updated via GitHub API.</p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

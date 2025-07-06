@@ -1,10 +1,30 @@
 {
-  "name": "@jajera/gitprofile",
-  "description": "Create an automatic portfolio based on GitHub profile",
-  "version": "3.1.0",
-  "type": "module",
-  "license": "MIT",
+  "name": "gitprofile",
+  "version": "1.0.0",
+  "description": "A dynamic GitHub Pages Index that discovers and categorizes GitHub repositories with Pages deployments across multiple users and organizations",
+  "main": "docs/index.html",
+  "scripts": {
+    "start": "cd docs && npx serve .",
+    "serve": "cd docs && npx serve .",
+    "dev": "cd docs && npx serve . --single",
+    "update": "node scripts/update-repositories.js",
+    "update:dev": "GITHUB_TOKEN=${GITHUB_TOKEN} node scripts/update-repositories.js",
+    "test": "echo \"No tests specified\" && exit 0",
+    "build": "echo \"No build process required\" && exit 0"
+  },
+  "keywords": [
+    "github-pages",
+    "index",
+    "repository",
+    "discovery",
+    "terraform",
+    "web-app",
+    "documentation",
+    "github-api",
+    "static-site"
+  ],
   "author": "jajera",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/jajera/gitprofile.git"
@@ -12,76 +32,13 @@
   "bugs": {
     "url": "https://github.com/jajera/gitprofile/issues"
   },
-  "scripts": {
-    "dev": "vite",
-    "build": "tsc && vite build",
-    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
-    "lint:fix": "eslint . --fix --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
-    "prettier": "prettier --check \"./**/*.{js,jsx,ts,tsx,css,md,json}\"",
-    "prettier:fix": "prettier --write \"./**/*.{js,jsx,ts,tsx,css,md,json}\"",
-    "preview": "vite preview"
-  },
+  "homepage": "https://jajera.github.io/gitprofile/",
   "dependencies": {
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "node-fetch": "^2.7.0",
+    "js-yaml": "^4.1.0"
   },
-  "devDependencies": {
-    "@arifszn/blog-js": "^2.0.6",
-    "@types/react": "^19.0.1",
-    "@types/react-dom": "^18.3.1",
-    "@typescript-eslint/eslint-plugin": "^7.8.0",
-    "@typescript-eslint/parser": "^8.26.1",
-    "@vitejs/plugin-react": "^4.3.4",
-    "autoprefixer": "^10.4.19",
-    "axios": "^1.7.2",
-    "daisyui": "^4.11.1",
-    "date-fns": "^4.1.0",
-    "eslint": "^9.22.0",
-    "eslint-config-prettier": "^9.1.0",
-    "eslint-plugin-prettier": "^5.2.1",
-    "eslint-plugin-react-hooks": "^5.0.0",
-    "eslint-plugin-react-refresh": "^0.4.18",
-    "postcss": "^8.4.38",
-    "prettier": "3.3.3",
-    "react-helmet-async": "^2.0.5",
-    "react-hotjar": "^6.3.1",
-    "react-icons": "^5.5.0",
-    "tailwindcss": "^3.4.3",
-    "typescript": "^5.4.5",
-    "vail": "^1.0.3",
-    "vite": "^5.2.11",
-    "vite-plugin-html": "^3.2.2",
-    "vite-plugin-pwa": "^0.21.1"
-  },
-  "keywords": [
-    "git-profile",
-    "gitprofile",
-    "gitportfolio",
-    "personal-site",
-    "template",
-    "portfolio",
-    "resume",
-    "cv",
-    "personal-website",
-    "portfolio-website",
-    "portfolio-site",
-    "portfolio-template",
-    "portfolio-page",
-    "developer-portfolio",
-    "portfolio-project",
-    "github-portfolio",
-    "tailwind-portfolio",
-    "vite-portfolio",
-    "projects",
-    "open-source",
-    "git",
-    "react-portfolio",
-    "github",
-    "github-page",
-    "github-pages",
-    "github-portfolio",
-    "vite-portfolio",
-    "academic-portfolio",
-    "github-api"
-  ]
+  "devDependencies": {},
+  "engines": {
+    "node": ">=14.0.0"
+  }
 }

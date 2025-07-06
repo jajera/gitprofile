@@ -1,50 +1,33 @@
 {
-  "name": "Node.js Development Container Template",
-  "dockerFile": "Dockerfile",
-
+  "name": "DIND with Node.js",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:1-22-bookworm",
   "features": {
-    "node": {
-      "version": "lts",
-      "nodeGypDependencies": true
+    "ghcr.io/devcontainers-extra/features/act:1": {},
+    "ghcr.io/devcontainers-extra/features/curl-apt-get:1": {},
+    "ghcr.io/devcontainers-extra/features/jest:2": {},
+    "ghcr.io/devcontainers-extra/features/typescript:2": {},
+    "ghcr.io/devcontainers/features/docker-in-docker:2": {},
+    "ghcr.io/devcontainers/features/node:1": {
+      "version": "lts"
     }
   },
-
   "customizations": {
-    "settings": {
-      "files.eol": "\n",
-      "editor.formatOnSave": true,
-      "remote.extensionKind": {
-        "ms-azuretools.vscode-docker": "workspace"
-      }
-    },
     "vscode": {
       "extensions": [
-        "davidanson.vscode-markdownlint",
-        "esbenp.prettier-vscode",
+        "dbaeumer.vscode-eslint",
         "eamodio.gitlens",
-        "Gruntfuggly.todo-tree",
-        "ms-azuretools.vscode-docker",
-        "streetsidesoftware.code-spell-checker",
-        "vscode-icons-team.vscode-icons"
+        "esbenp.prettier-vscode",
+        "ms-vscode.live-server",
+        "ms-vscode.vscode-typescript-next"
       ],
       "settings": {
-        "workbench.iconTheme": "vscode-icons"
+        "editor.formatOnSave": true,
+        "files.eol": "\n",
+        "javascript.format.enable": true,
+        "terminal.integrated.defaultProfile.linux": "bash"
       }
     }
   },
-  // Use 'forwardPorts' to make a list of ports inside the container available locally.
-  "forwardPorts": [5173],
-  "appPort": [5173],
-  "portsAttributes": {
-    "5173": {
-      "label": "Frontend App",
-      "onAutoForward": "openBrowser"
-    }
-  },
-
-  // Use 'postCreateCommand' to run commands after the container is created.
   "postCreateCommand": ".devcontainer/scripts/postCreate.sh",
-
-  // Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
-  "remoteUser": "root"
+  "runArgs": ["--privileged"]
 }
