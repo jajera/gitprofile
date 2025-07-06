@@ -1,0 +1,48 @@
+{
+  "site": {
+    "title": "John Ajera Portfolio",
+    "description": "A centralized hub for all my GitHub Pages deployments, Terraform modules, and documentation sites. This index automatically discovers and categorizes repositories across multiple organizations.",
+    "author": "John Ajera",
+    "favicon": "🚀"
+  },
+  "sources": {
+    "users": ["jajera"],
+    "organizations": ["tfstack", "jajera"]
+  },
+  "filters": {
+    "includePatterns": [
+      "has_pages",
+      "terraform-*",
+      "topic:terraform-module"
+    ],
+    "excludeRepositories": [
+      "gitprofile",
+      ".github",
+      "private-repo-example"
+    ],
+    "excludePatterns": [
+      "archive-*",
+      "backup-*",
+      "test-*"
+    ]
+  },
+  "categorization": {
+    "webApps": {
+      "topics": ["web-app", "webapp", "pwa", "react", "vue", "angular", "javascript", "typescript", "nextjs", "svelte"],
+      "keywords": ["app", "tool", "converter", "generator", "calculator", "game", "dashboard", "ui", "frontend"]
+    },
+    "terraformModules": {
+      "namePrefix": "terraform-",
+      "topics": ["terraform-module", "terraform", "infrastructure", "iac"]
+    },
+    "documentation": {
+      "topics": ["documentation", "docs", "wiki", "guide", "tutorial"],
+      "keywords": ["docs", "guide", "tutorial", "wiki", "documentation"]
+    }
+  },
+  "settings": {
+    "rateLimitDelay": 1000,
+    "cacheExpiry": 1800000,
+    "updateSchedule": "0 */6 * * *"
+  }
+}

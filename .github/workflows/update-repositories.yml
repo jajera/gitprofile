@@ -1,0 +1,56 @@
+name: Update Repository Data
+
+on:
+  schedule:
+    # Run every 6 hours
+    - cron: '0 */6 * * *'
+  workflow_dispatch: # Allow manual trigger
+  push:
+    paths:
+      - 'config.json'
+      - '.github/workflows/update-repositories.yml'
+      - 'scripts/update-repositories.js'
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  update-repositories:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: |
+          npm ci
+
+      - name: Copy configuration to docs directory
+        run: |
+          cp config.json docs/config.json
+
+      - name: Run repository update script
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node scripts/update-repositories.js
+
+      - name: Commit updated data
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add docs/repositories.json docs/config.json
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Update repository data and configuration - $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+            git push
+          fi
