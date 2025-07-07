@@ -311,6 +311,14 @@ class GitHubPagesIndex {
         const refHtml = repo.reference ? `<div class="repo-reference">${repo.reference}</div>` : '';
         const versionHtml = repo.latest_version ? `<span class="repo-tag">v${repo.latest_version}</span>` : '';
 
+        // Determine site URL
+        let siteUrl = null;
+        if (repo.has_pages) {
+            siteUrl = repo.pagesUrl;
+        } else if (repo.category === 'terraform-modules' && repo.homepage) {
+            siteUrl = repo.homepage;
+        }
+
         card.innerHTML = `
             <div class="repo-card-header">
                 <div>
@@ -330,8 +338,8 @@ class GitHubPagesIndex {
             </div>
             ${refHtml}
             <div class="repo-links">
-                ${repo.has_pages ?
-                    `<a href="${repo.pagesUrl}" target="_blank" rel="noopener noreferrer" class="repo-link repo-link-primary">
+                ${siteUrl ?
+                    `<a href="${siteUrl}" target="_blank" rel="noopener noreferrer" class="repo-link repo-link-primary">
                         View Site
                     </a>` : ''
                 }
