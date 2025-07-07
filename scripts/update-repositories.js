@@ -331,6 +331,10 @@ class RepositoryUpdater {
         const featureJsonPath = `${dir.path}/devcontainer-feature.json`;
         const fileRes = await this.makeApiRequest(`https://raw.githubusercontent.com/${owner}/${name}/main/${featureJsonPath}`);
         if (!fileRes.ok) continue; // skip if not present
+        // Respect exclude list
+        if (this.config.filters.excludeDevcontainerFeatures?.includes(dir.name)) {
+          continue;
+        }
         try {
           const jsonText = await fileRes.text();
           const meta = JSON.parse(jsonText);
@@ -357,6 +361,92 @@ class RepositoryUpdater {
         } catch {}
         await this.delay(200); // tiny delay to be polite
       }
+
+      // If repo follows devcontainer/feature-starter layout where features sit inside "src" directory
+      const srcDir = contents.find(item => item.type === 'dir' && item.name === 'src');
+      if (srcDir) {
+        const srcRes = await this.makeApiRequest(`https://api.github.com/repos/${owner}/${name}/contents/${srcDir.path}`);
+        if (srcRes.ok) {
+          const srcDirs = (await srcRes.json()).filter(item => item.type === 'dir');
+          for (const sub of srcDirs) {
+            // skip root features already captured or configured exclusion
+            if (features.some(f => f.name === sub.name) || this.config.filters.excludeDevcontainerFeatures?.includes(sub.name)) continue;
+            const featureJsonPath = `${sub.path}/devcontainer-feature.json`;
+            const fileRes = await this.makeApiRequest(`https://raw.githubusercontent.com/${owner}/${name}/main/${featureJsonPath}`);
+            if (!fileRes.ok) continue;
+            try {
+              const jsonText = await fileRes.text();
+              const meta = JSON.parse(jsonText);
+              features.push({
+                id: `feature-${sub.name}`,
+                name: sub.name,
+                full_name: sub.name,
+                description: meta.description || 'Dev Container Feature',
+                html_url: `https://github.com/${owner}/${name}/tree/main/${sub.path}`,
+                homepage: '',
+                language: '',
+                topics: ['devcontainer-feature'],
+                stargazers_count: 0,
+                forks_count: 0,
+                has_pages: false,
+                created_at: '',
+                updated_at: '',
+                owner: { login: owner, avatar_url: '', html_url: `https://github.com/${owner}` },
+                category: 'devcontainer-features',
+                reference: meta?.registryUrl || `ghcr.io/${owner}/features/${sub.name}:latest`,
+                latest_version: meta.version || 'latest',
+                isUserRepo: false
+              });
+            } catch {}
+            await this.delay(200);
+          }
+        }
+      }
+
+      // NEW: Scan GitHub Packages (container) for additional DevContainer features
+      try {
+        // Packages live at the user/org level. Fetch all container packages for the user then pick the ones whose repository matches the devcontainer feature repo.
+        const packagesRes = await this.makeApiRequest(`https://api.github.com/users/${owner}/packages?package_type=container&per_page=100`);
+        if (packagesRes.ok) {
+          const pkgs = await packagesRes.json();
+          for (const pkg of pkgs) {
+            // Only keep packages that originate from the desired repository (html_url contains /features/)
+            const repoMatch = pkg?.repository?.name === name || (pkg.html_url && pkg.html_url.includes(`/${name}/`));
+            if (!repoMatch) continue;
+            // Skip duplicates or excluded names
+            if (features.some(f => f.name === pkg.name) || this.config.filters.excludeDevcontainerFeatures?.includes(pkg.name)) continue;
+
+            // Attempt to grab the first tag as version, default to 'latest'
+            const latestTag = (pkg?.package_version?.metadata?.container?.tags || [])[0] || 'latest';
+
+            features.push({
+              id: `package-${pkg.name}`,
+              name: pkg.name,
+              full_name: pkg.name,
+              description: pkg.description || 'Dev Container Feature',
+              html_url: pkg.html_url || `https://github.com/${owner}/${name}/packages/${pkg.name}`,
+              homepage: '',
+              language: '',
+              topics: ['devcontainer-feature'],
+              stargazers_count: 0,
+              forks_count: 0,
+              has_pages: false,
+              created_at: '',
+              updated_at: '',
+              owner: { login: owner, avatar_url: '', html_url: `https://github.com/${owner}` },
+              category: 'devcontainer-features',
+              reference: `ghcr.io/${owner}/features/${pkg.name}:${latestTag}`,
+              latest_version: latestTag,
+              isUserRepo: false
+            });
+          }
+        } else {
+          console.warn(`Unable to list packages for user ${owner} (status ${packagesRes.status})`);
+        }
+      } catch (pkgError) {
+        console.warn('Devcontainer package scan failed:', pkgError.message);
+      }
+
       console.log(`Found ${features.length} devcontainer features`);
       return features;
     } catch (e) {

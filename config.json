@@ -41,7 +41,8 @@
       "test-*"
     ],
     "excludeDevcontainerFeatures": [
-      "devcontainer-template"
+      "devcontainer-template",
+      "features"
     ]
   },
   "categorization": {
