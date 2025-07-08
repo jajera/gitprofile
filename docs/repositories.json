@@ -1282,7 +1282,7 @@
       "github-actions": 6,
       "devcontainer-features": 4
     },
-    "lastUpdated": "2025-07-08T06:16:22.475Z",
+    "lastUpdated": "2025-07-08T06:20:36.705Z",
     "sources": {
       "users": [
         "jajera"
@@ -1295,7 +1295,7 @@
       ]
     },
     "site": {
-      "title": "John Ajera Portfolio",
+      "title": "John Ajera's Portfolio",
       "description": "A centralized hub for all my GitHub Pages deployments, Terraform modules, and documentation sites. This index automatically discovers and categorizes repositories across multiple organizations.",
       "author": "John Ajera",
       "favicon": "🚀"
