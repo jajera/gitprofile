@@ -36,7 +36,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2025-06-12T09:44:12Z",
-      "updated_at": "2025-07-08T05:53:54Z",
+      "updated_at": "2025-07-08T06:24:10Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -1282,7 +1282,7 @@
       "github-actions": 6,
       "devcontainer-features": 4
     },
-    "lastUpdated": "2025-07-08T06:16:22.475Z",
+    "lastUpdated": "2025-07-08T06:26:48.327Z",
     "sources": {
       "users": [
         "jajera"
@@ -1295,7 +1295,7 @@
       ]
     },
     "site": {
-      "title": "John Ajera Portfolio",
+      "title": "John Ajera's Portfolio",
       "description": "A centralized hub for all my GitHub Pages deployments, Terraform modules, and documentation sites. This index automatically discovers and categorizes repositories across multiple organizations.",
       "author": "John Ajera",
       "favicon": "🚀"

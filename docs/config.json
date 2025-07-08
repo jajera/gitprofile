@@ -1,6 +1,6 @@
 {
   "site": {
-    "title": "John Ajera Portfolio",
+    "title": "John Ajera's Portfolio",
     "description": "A centralized hub for all my GitHub Pages deployments, Terraform modules, and documentation sites. This index automatically discovers and categorizes repositories across multiple organizations.",
     "author": "John Ajera",
     "favicon": "🚀"
