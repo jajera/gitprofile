@@ -131,19 +131,19 @@ body {
 }
 
 .sun-icon {
-    display: block;
+    display: none;
 }
 
 .moon-icon {
-    display: none;
+    display: block;
 }
 
 [data-theme="dark"] .sun-icon {
-    display: none;
+    display: block;
 }
 
 [data-theme="dark"] .moon-icon {
-    display: block;
+    display: none;
 }
 
 /* Social Links (GitHub, LinkedIn) */
