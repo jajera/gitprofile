@@ -36,7 +36,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2025-06-12T09:44:12Z",
-      "updated_at": "2025-07-12T23:51:36Z",
+      "updated_at": "2025-07-13T05:53:27Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -151,7 +151,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2024-03-16T02:06:32Z",
-      "updated_at": "2025-07-12T17:13:20Z",
+      "updated_at": "2025-07-13T03:00:06Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -174,7 +174,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2025-06-01T12:08:27Z",
-      "updated_at": "2025-07-12T03:59:13Z",
+      "updated_at": "2025-07-13T04:06:07Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -197,7 +197,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2024-03-10T07:21:24Z",
-      "updated_at": "2025-07-12T17:17:56Z",
+      "updated_at": "2025-07-13T03:03:40Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -1197,6 +1197,29 @@
       "isUserRepo": false
     },
     {
+      "id": 1018714251,
+      "name": "terraform-aws-jumphost",
+      "full_name": "tfstack/terraform-aws-jumphost",
+      "description": "Reusable Terraform module to deploy a secure, SSM-enabled EC2 jumphost in AWS",
+      "html_url": "https://github.com/tfstack/terraform-aws-jumphost",
+      "homepage": null,
+      "language": "HCL",
+      "topics": [],
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "has_pages": false,
+      "created_at": "2025-07-12T21:48:25Z",
+      "updated_at": "2025-07-13T04:29:17Z",
+      "owner": {
+        "login": "tfstack",
+        "avatar_url": "https://avatars.githubusercontent.com/u/181625549?v=4",
+        "html_url": "https://github.com/tfstack"
+      },
+      "category": "terraform-modules",
+      "pagesUrl": null,
+      "isUserRepo": false
+    },
+    {
       "id": "feature-ag",
       "name": "ag",
       "full_name": "ag",
@@ -1298,14 +1321,14 @@
     }
   ],
   "metadata": {
-    "totalCount": 56,
+    "totalCount": 57,
     "categories": {
       "web-apps": 19,
-      "terraform-modules": 27,
+      "terraform-modules": 28,
       "github-actions": 6,
       "devcontainer-features": 4
     },
-    "lastUpdated": "2025-07-13T00:58:03.865Z",
+    "lastUpdated": "2025-07-13T06:15:06.188Z",
     "sources": {
       "users": [
         "jajera"
