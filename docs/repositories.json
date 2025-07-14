@@ -36,7 +36,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2025-06-12T09:44:12Z",
-      "updated_at": "2025-07-14T05:49:19Z",
+      "updated_at": "2025-07-14T11:49:45Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -151,7 +151,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2024-03-16T02:06:32Z",
-      "updated_at": "2025-07-14T02:58:52Z",
+      "updated_at": "2025-07-14T09:24:43Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -197,7 +197,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2024-03-10T07:21:24Z",
-      "updated_at": "2025-07-14T03:02:09Z",
+      "updated_at": "2025-07-14T09:29:11Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -1202,14 +1202,14 @@
       "full_name": "tfstack/terraform-aws-jumphost",
       "description": "Reusable Terraform module to deploy a secure, SSM-enabled EC2 jumphost in AWS",
       "html_url": "https://github.com/tfstack/terraform-aws-jumphost",
-      "homepage": null,
+      "homepage": "https://registry.terraform.io/modules/tfstack/jumphost/aws/latest",
       "language": "HCL",
       "topics": [],
       "stargazers_count": 0,
       "forks_count": 0,
       "has_pages": false,
       "created_at": "2025-07-12T21:48:25Z",
-      "updated_at": "2025-07-13T13:02:54Z",
+      "updated_at": "2025-07-14T08:49:29Z",
       "owner": {
         "login": "tfstack",
         "avatar_url": "https://avatars.githubusercontent.com/u/181625549?v=4",
@@ -1328,7 +1328,7 @@
       "github-actions": 6,
       "devcontainer-features": 4
     },
-    "lastUpdated": "2025-07-14T06:17:58.983Z",
+    "lastUpdated": "2025-07-14T12:20:52.362Z",
     "sources": {
       "users": [
         "jajera"
