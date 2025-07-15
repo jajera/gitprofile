@@ -36,7 +36,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2025-06-12T09:44:12Z",
-      "updated_at": "2025-07-15T05:47:39Z",
+      "updated_at": "2025-07-15T11:50:05Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -151,7 +151,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2024-03-16T02:06:32Z",
-      "updated_at": "2025-07-15T02:57:37Z",
+      "updated_at": "2025-07-15T09:25:41Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -197,7 +197,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2024-03-10T07:21:24Z",
-      "updated_at": "2025-07-15T03:00:21Z",
+      "updated_at": "2025-07-15T09:30:56Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -642,6 +642,29 @@
       },
       "category": "terraform-modules",
       "pagesUrl": null,
+      "isUserRepo": false
+    },
+    {
+      "id": 1020065573,
+      "name": "kiro-demo",
+      "full_name": "jdevto/kiro-demo",
+      "description": "A demo project showcasing the AWS Kiro IDE using Vibe coding to build and explore cloud applications interactively.",
+      "html_url": "https://github.com/jdevto/kiro-demo",
+      "homepage": "https://jdevto.github.io/kiro-demo/",
+      "language": "HTML",
+      "topics": [],
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "has_pages": true,
+      "created_at": "2025-07-15T09:35:29Z",
+      "updated_at": "2025-07-15T09:57:08Z",
+      "owner": {
+        "login": "jdevto",
+        "avatar_url": "https://avatars.githubusercontent.com/u/189578010?v=4",
+        "html_url": "https://github.com/jdevto"
+      },
+      "category": "web-apps",
+      "pagesUrl": "https://jdevto.github.io/kiro-demo",
       "isUserRepo": false
     },
     {
@@ -1321,14 +1344,14 @@
     }
   ],
   "metadata": {
-    "totalCount": 57,
+    "totalCount": 58,
     "categories": {
-      "web-apps": 19,
+      "web-apps": 20,
       "terraform-modules": 28,
       "github-actions": 6,
       "devcontainer-features": 4
     },
-    "lastUpdated": "2025-07-15T06:17:02.608Z",
+    "lastUpdated": "2025-07-15T12:21:10.637Z",
     "sources": {
       "users": [
         "jajera"
