@@ -36,7 +36,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2025-06-12T09:44:12Z",
-      "updated_at": "2025-07-29T05:51:14Z",
+      "updated_at": "2025-07-29T11:50:48Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -151,7 +151,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2024-03-16T02:06:32Z",
-      "updated_at": "2025-07-29T03:08:00Z",
+      "updated_at": "2025-07-29T09:22:19Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -197,7 +197,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2024-03-10T07:21:24Z",
-      "updated_at": "2025-07-29T03:10:43Z",
+      "updated_at": "2025-07-29T09:28:04Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -1289,6 +1289,29 @@
       "isUserRepo": false
     },
     {
+      "id": 1027987814,
+      "name": "terraform-aws-ec2-server",
+      "full_name": "tfstack/terraform-aws-ec2-server",
+      "description": "Provision a single EC2 instance with optional server role and SSM support",
+      "html_url": "https://github.com/tfstack/terraform-aws-ec2-server",
+      "homepage": "https://registry.terraform.io/modules/tfstack/ec2-server/aws/latest",
+      "language": "HCL",
+      "topics": [],
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "has_pages": false,
+      "created_at": "2025-07-28T21:05:02Z",
+      "updated_at": "2025-07-29T11:43:40Z",
+      "owner": {
+        "login": "tfstack",
+        "avatar_url": "https://avatars.githubusercontent.com/u/181625549?v=4",
+        "html_url": "https://github.com/tfstack"
+      },
+      "category": "terraform-modules",
+      "pagesUrl": null,
+      "isUserRepo": false
+    },
+    {
       "id": "feature-ag",
       "name": "ag",
       "full_name": "ag",
@@ -1415,14 +1438,14 @@
     }
   ],
   "metadata": {
-    "totalCount": 61,
+    "totalCount": 62,
     "categories": {
       "web-apps": 20,
-      "terraform-modules": 30,
+      "terraform-modules": 31,
       "github-actions": 6,
       "devcontainer-features": 5
     },
-    "lastUpdated": "2025-07-29T06:18:17.480Z",
+    "lastUpdated": "2025-07-29T12:22:20.272Z",
     "sources": {
       "users": [
         "jajera"
