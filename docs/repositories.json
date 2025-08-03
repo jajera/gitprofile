@@ -36,7 +36,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2025-06-12T09:44:12Z",
-      "updated_at": "2025-08-03T11:49:42Z",
+      "updated_at": "2025-08-03T17:52:35Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -151,7 +151,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2024-03-16T02:06:32Z",
-      "updated_at": "2025-08-03T09:17:02Z",
+      "updated_at": "2025-08-03T17:14:57Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -197,7 +197,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2024-03-10T07:21:24Z",
-      "updated_at": "2025-08-03T09:21:48Z",
+      "updated_at": "2025-08-03T17:20:11Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -1289,6 +1289,29 @@
       "isUserRepo": false
     },
     {
+      "id": 1027921159,
+      "name": "terraform-aws-cloudmap",
+      "full_name": "tfstack/terraform-aws-cloudmap",
+      "description": "Terraform module to manage Amazon Cloud Map namespaces and services for DNS-based discovery",
+      "html_url": "https://github.com/tfstack/terraform-aws-cloudmap",
+      "homepage": null,
+      "language": "HCL",
+      "topics": [],
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "has_pages": false,
+      "created_at": "2025-07-28T18:27:32Z",
+      "updated_at": "2025-08-03T13:44:17Z",
+      "owner": {
+        "login": "tfstack",
+        "avatar_url": "https://avatars.githubusercontent.com/u/181625549?v=4",
+        "html_url": "https://github.com/tfstack"
+      },
+      "category": "terraform-modules",
+      "pagesUrl": null,
+      "isUserRepo": false
+    },
+    {
       "id": 1027987814,
       "name": "terraform-aws-ec2-server",
       "full_name": "tfstack/terraform-aws-ec2-server",
@@ -1438,14 +1461,14 @@
     }
   ],
   "metadata": {
-    "totalCount": 62,
+    "totalCount": 63,
     "categories": {
       "web-apps": 20,
-      "terraform-modules": 31,
+      "terraform-modules": 32,
       "github-actions": 6,
       "devcontainer-features": 5
     },
-    "lastUpdated": "2025-08-03T12:19:27.856Z",
+    "lastUpdated": "2025-08-03T18:15:00.252Z",
     "sources": {
       "users": [
         "jajera"
