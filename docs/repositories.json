@@ -36,7 +36,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2025-06-12T09:44:12Z",
-      "updated_at": "2025-08-08T23:50:31Z",
+      "updated_at": "2025-08-09T05:52:30Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -151,7 +151,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2024-03-16T02:06:32Z",
-      "updated_at": "2025-08-08T17:13:32Z",
+      "updated_at": "2025-08-09T02:46:17Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -174,7 +174,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2025-06-01T12:08:27Z",
-      "updated_at": "2025-08-08T04:11:32Z",
+      "updated_at": "2025-08-09T03:56:45Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -197,7 +197,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2024-03-10T07:21:24Z",
-      "updated_at": "2025-08-08T17:18:06Z",
+      "updated_at": "2025-08-09T02:50:08Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -1335,6 +1335,29 @@
       "isUserRepo": false
     },
     {
+      "id": 1034423488,
+      "name": "terraform-aws-eks",
+      "full_name": "tfstack/terraform-aws-eks",
+      "description": "Terraform module for AWS EKS clusters",
+      "html_url": "https://github.com/tfstack/terraform-aws-eks",
+      "homepage": null,
+      "language": "HCL",
+      "topics": [],
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "has_pages": false,
+      "created_at": "2025-08-08T11:16:00Z",
+      "updated_at": "2025-08-09T04:03:10Z",
+      "owner": {
+        "login": "tfstack",
+        "avatar_url": "https://avatars.githubusercontent.com/u/181625549?v=4",
+        "html_url": "https://github.com/tfstack"
+      },
+      "category": "terraform-modules",
+      "pagesUrl": null,
+      "isUserRepo": false
+    },
+    {
       "id": "feature-ag",
       "name": "ag",
       "full_name": "ag",
@@ -1461,14 +1484,14 @@
     }
   ],
   "metadata": {
-    "totalCount": 63,
+    "totalCount": 64,
     "categories": {
       "web-apps": 20,
-      "terraform-modules": 32,
+      "terraform-modules": 33,
       "github-actions": 6,
       "devcontainer-features": 5
     },
-    "lastUpdated": "2025-08-09T00:49:42.968Z",
+    "lastUpdated": "2025-08-09T06:15:11.127Z",
     "sources": {
       "users": [
         "jajera"
