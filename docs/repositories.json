@@ -36,7 +36,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2025-06-12T09:44:12Z",
-      "updated_at": "2025-08-22T23:49:49Z",
+      "updated_at": "2025-08-23T05:49:15Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -151,7 +151,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2024-03-16T02:06:32Z",
-      "updated_at": "2025-08-22T17:14:03Z",
+      "updated_at": "2025-08-23T02:24:00Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -174,7 +174,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2025-06-01T12:08:27Z",
-      "updated_at": "2025-08-22T03:46:00Z",
+      "updated_at": "2025-08-23T03:41:18Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -197,7 +197,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2024-03-10T07:21:24Z",
-      "updated_at": "2025-08-22T17:19:12Z",
+      "updated_at": "2025-08-23T02:27:36Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -1404,6 +1404,75 @@
       "isUserRepo": false
     },
     {
+      "id": 1042991194,
+      "name": "terraform-aws-mq-broker",
+      "full_name": "tfstack/terraform-aws-mq-broker",
+      "description": "Terraform module for deploying and managing AWS MQ brokers with secure defaults",
+      "html_url": "https://github.com/tfstack/terraform-aws-mq-broker",
+      "homepage": "https://registry.terraform.io/modules/tfstack/mq-broker/aws/latest",
+      "language": "HCL",
+      "topics": [],
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "has_pages": false,
+      "created_at": "2025-08-22T23:39:19Z",
+      "updated_at": "2025-08-23T02:43:27Z",
+      "owner": {
+        "login": "tfstack",
+        "avatar_url": "https://avatars.githubusercontent.com/u/181625549?v=4",
+        "html_url": "https://github.com/tfstack"
+      },
+      "category": "terraform-modules",
+      "pagesUrl": null,
+      "isUserRepo": false
+    },
+    {
+      "id": 1043039546,
+      "name": "terraform-aws-aurora-postgresql",
+      "full_name": "tfstack/terraform-aws-aurora-postgresql",
+      "description": "Terraform module for deploying Aurora PostgreSQL cluster",
+      "html_url": "https://github.com/tfstack/terraform-aws-aurora-postgresql",
+      "homepage": "https://registry.terraform.io/modules/tfstack/aurora-postgresql/aws/latest",
+      "language": "HCL",
+      "topics": [],
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "has_pages": false,
+      "created_at": "2025-08-23T02:57:19Z",
+      "updated_at": "2025-08-23T05:55:07Z",
+      "owner": {
+        "login": "tfstack",
+        "avatar_url": "https://avatars.githubusercontent.com/u/181625549?v=4",
+        "html_url": "https://github.com/tfstack"
+      },
+      "category": "terraform-modules",
+      "pagesUrl": null,
+      "isUserRepo": false
+    },
+    {
+      "id": 1043063070,
+      "name": "terraform-aws-aurora-mysql",
+      "full_name": "tfstack/terraform-aws-aurora-mysql",
+      "description": "Terraform module for deploying Aurora MySQL cluster",
+      "html_url": "https://github.com/tfstack/terraform-aws-aurora-mysql",
+      "homepage": "https://registry.terraform.io/modules/tfstack/aurora-mysql/aws/latest",
+      "language": "HCL",
+      "topics": [],
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "has_pages": false,
+      "created_at": "2025-08-23T04:19:05Z",
+      "updated_at": "2025-08-23T05:54:28Z",
+      "owner": {
+        "login": "tfstack",
+        "avatar_url": "https://avatars.githubusercontent.com/u/181625549?v=4",
+        "html_url": "https://github.com/tfstack"
+      },
+      "category": "terraform-modules",
+      "pagesUrl": null,
+      "isUserRepo": false
+    },
+    {
       "id": "feature-ag",
       "name": "ag",
       "full_name": "ag",
@@ -1530,14 +1599,14 @@
     }
   ],
   "metadata": {
-    "totalCount": 66,
+    "totalCount": 69,
     "categories": {
       "web-apps": 20,
-      "terraform-modules": 35,
+      "terraform-modules": 38,
       "github-actions": 6,
       "devcontainer-features": 5
     },
-    "lastUpdated": "2025-08-23T00:45:02.723Z",
+    "lastUpdated": "2025-08-23T06:14:18.581Z",
     "sources": {
       "users": [
         "jajera"
