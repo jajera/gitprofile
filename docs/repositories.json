@@ -36,7 +36,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2025-06-12T09:44:12Z",
-      "updated_at": "2025-08-27T05:49:23Z",
+      "updated_at": "2025-08-27T11:49:14Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -44,6 +44,29 @@
       },
       "category": "web-apps",
       "pagesUrl": "https://jajera.github.io/aurora-nz-nowcast",
+      "isUserRepo": true
+    },
+    {
+      "id": 1043617922,
+      "name": "aws-community-day-spotlight",
+      "full_name": "jajera/aws-community-day-spotlight",
+      "description": "Static content generator for event speaker spotlights",
+      "html_url": "https://github.com/jajera/aws-community-day-spotlight",
+      "homepage": "https://jajera.github.io/aws-community-day-spotlight/",
+      "language": "HTML",
+      "topics": [],
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "has_pages": true,
+      "created_at": "2025-08-24T08:50:02Z",
+      "updated_at": "2025-08-27T09:08:27Z",
+      "owner": {
+        "login": "jajera",
+        "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
+        "html_url": "https://github.com/jajera"
+      },
+      "category": "web-apps",
+      "pagesUrl": "https://jajera.github.io/aws-community-day-spotlight",
       "isUserRepo": true
     },
     {
@@ -151,7 +174,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2024-03-16T02:06:32Z",
-      "updated_at": "2025-08-27T02:24:10Z",
+      "updated_at": "2025-08-27T09:16:53Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -197,7 +220,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2024-03-10T07:21:24Z",
-      "updated_at": "2025-08-27T02:27:53Z",
+      "updated_at": "2025-08-27T09:22:18Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -1599,14 +1622,14 @@
     }
   ],
   "metadata": {
-    "totalCount": 69,
+    "totalCount": 70,
     "categories": {
-      "web-apps": 20,
+      "web-apps": 21,
       "terraform-modules": 38,
       "github-actions": 6,
       "devcontainer-features": 5
     },
-    "lastUpdated": "2025-08-27T06:15:41.686Z",
+    "lastUpdated": "2025-08-27T12:19:45.549Z",
     "sources": {
       "users": [
         "jajera"
