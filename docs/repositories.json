@@ -36,7 +36,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2025-06-12T09:44:12Z",
-      "updated_at": "2025-09-06T05:49:46Z",
+      "updated_at": "2025-09-06T11:49:26Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -174,7 +174,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2024-03-16T02:06:32Z",
-      "updated_at": "2025-09-06T02:16:51Z",
+      "updated_at": "2025-09-06T09:13:21Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -220,7 +220,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2024-03-10T07:21:24Z",
-      "updated_at": "2025-09-06T02:20:41Z",
+      "updated_at": "2025-09-06T09:18:20Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -1496,6 +1496,29 @@
       "isUserRepo": false
     },
     {
+      "id": 1049995603,
+      "name": "terraform-aws-wafv2",
+      "full_name": "tfstack/terraform-aws-wafv2",
+      "description": "Terraform module to create and manage AWS WAFv2 Web ACLs and resource associations",
+      "html_url": "https://github.com/tfstack/terraform-aws-wafv2",
+      "homepage": null,
+      "language": "HCL",
+      "topics": [],
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "has_pages": false,
+      "created_at": "2025-09-03T19:47:44Z",
+      "updated_at": "2025-09-06T09:20:09Z",
+      "owner": {
+        "login": "tfstack",
+        "avatar_url": "https://avatars.githubusercontent.com/u/181625549?v=4",
+        "html_url": "https://github.com/tfstack"
+      },
+      "category": "terraform-modules",
+      "pagesUrl": null,
+      "isUserRepo": false
+    },
+    {
       "id": "feature-ag",
       "name": "ag",
       "full_name": "ag",
@@ -1622,14 +1645,14 @@
     }
   ],
   "metadata": {
-    "totalCount": 70,
+    "totalCount": 71,
     "categories": {
       "web-apps": 21,
-      "terraform-modules": 38,
+      "terraform-modules": 39,
       "github-actions": 6,
       "devcontainer-features": 5
     },
-    "lastUpdated": "2025-09-06T06:13:27.223Z",
+    "lastUpdated": "2025-09-06T12:16:32.369Z",
     "sources": {
       "users": [
         "jajera"
