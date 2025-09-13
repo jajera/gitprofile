@@ -36,7 +36,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2025-06-12T09:44:12Z",
-      "updated_at": "2025-09-12T23:49:27Z",
+      "updated_at": "2025-09-13T05:49:24Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -174,7 +174,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2024-03-16T02:06:32Z",
-      "updated_at": "2025-09-12T17:12:03Z",
+      "updated_at": "2025-09-13T02:11:31Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -197,7 +197,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2025-06-01T12:08:27Z",
-      "updated_at": "2025-09-12T03:53:50Z",
+      "updated_at": "2025-09-13T03:29:04Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -220,7 +220,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2024-03-10T07:21:24Z",
-      "updated_at": "2025-09-12T17:17:57Z",
+      "updated_at": "2025-09-13T02:15:23Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -1266,6 +1266,29 @@
       "isUserRepo": false
     },
     {
+      "id": 1023052143,
+      "name": "terraform-aws-vpc-lattice",
+      "full_name": "tfstack/terraform-aws-vpc-lattice",
+      "description": "Terraform module for secure service-to-service communication across VPCs using AWS VPC Lattice",
+      "html_url": "https://github.com/tfstack/terraform-aws-vpc-lattice",
+      "homepage": null,
+      "language": "HCL",
+      "topics": [],
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "has_pages": false,
+      "created_at": "2025-07-20T12:29:08Z",
+      "updated_at": "2025-09-13T02:48:05Z",
+      "owner": {
+        "login": "tfstack",
+        "avatar_url": "https://avatars.githubusercontent.com/u/181625549?v=4",
+        "html_url": "https://github.com/tfstack"
+      },
+      "category": "terraform-modules",
+      "pagesUrl": null,
+      "isUserRepo": false
+    },
+    {
       "id": 1024194573,
       "name": "terraform-aws-apigateway-v2",
       "full_name": "tfstack/terraform-aws-apigateway-v2",
@@ -1645,14 +1668,14 @@
     }
   ],
   "metadata": {
-    "totalCount": 71,
+    "totalCount": 72,
     "categories": {
       "web-apps": 21,
-      "terraform-modules": 39,
+      "terraform-modules": 40,
       "github-actions": 6,
       "devcontainer-features": 5
     },
-    "lastUpdated": "2025-09-13T00:42:14.610Z",
+    "lastUpdated": "2025-09-13T06:13:18.631Z",
     "sources": {
       "users": [
         "jajera"
