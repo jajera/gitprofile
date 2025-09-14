@@ -36,7 +36,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2025-06-12T09:44:12Z",
-      "updated_at": "2025-09-13T23:49:18Z",
+      "updated_at": "2025-09-14T05:49:32Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -44,6 +44,29 @@
       },
       "category": "web-apps",
       "pagesUrl": "https://jajera.github.io/aurora-nz-nowcast",
+      "isUserRepo": true
+    },
+    {
+      "id": 1055561666,
+      "name": "aws-community-day-aotearoa-2025-vpclattice-talk",
+      "full_name": "jajera/aws-community-day-aotearoa-2025-vpclattice-talk",
+      "description": "Talk on VPC Lattice: When to Use It and When to Skip It @ AWS Community Day Aotearoa 2025",
+      "html_url": "https://github.com/jajera/aws-community-day-aotearoa-2025-vpclattice-talk",
+      "homepage": "https://jajera.github.io/aws-community-day-aotearoa-2025-vpclattice-talk/",
+      "language": "HCL",
+      "topics": [],
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "has_pages": true,
+      "created_at": "2025-09-12T12:59:13Z",
+      "updated_at": "2025-09-14T04:22:36Z",
+      "owner": {
+        "login": "jajera",
+        "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
+        "html_url": "https://github.com/jajera"
+      },
+      "category": "web-apps",
+      "pagesUrl": "https://jajera.github.io/aws-community-day-aotearoa-2025-vpclattice-talk",
       "isUserRepo": true
     },
     {
@@ -174,7 +197,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2024-03-16T02:06:32Z",
-      "updated_at": "2025-09-13T17:10:31Z",
+      "updated_at": "2025-09-14T02:24:05Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -197,7 +220,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2025-06-01T12:08:27Z",
-      "updated_at": "2025-09-13T03:29:04Z",
+      "updated_at": "2025-09-14T03:39:05Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -220,7 +243,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2024-03-10T07:21:24Z",
-      "updated_at": "2025-09-13T17:15:18Z",
+      "updated_at": "2025-09-14T02:28:00Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -1668,14 +1691,14 @@
     }
   ],
   "metadata": {
-    "totalCount": 72,
+    "totalCount": 73,
     "categories": {
-      "web-apps": 21,
+      "web-apps": 22,
       "terraform-modules": 40,
       "github-actions": 6,
       "devcontainer-features": 5
     },
-    "lastUpdated": "2025-09-14T00:48:42.264Z",
+    "lastUpdated": "2025-09-14T06:13:51.423Z",
     "sources": {
       "users": [
         "jajera"
