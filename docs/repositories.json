@@ -36,7 +36,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2025-06-12T09:44:12Z",
-      "updated_at": "2025-10-03T23:49:32Z",
+      "updated_at": "2025-10-04T05:49:42Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -197,7 +197,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2024-03-16T02:06:32Z",
-      "updated_at": "2025-10-03T17:12:25Z",
+      "updated_at": "2025-10-04T02:13:32Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -220,7 +220,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2025-06-01T12:08:27Z",
-      "updated_at": "2025-10-03T03:35:16Z",
+      "updated_at": "2025-10-04T03:31:48Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -243,7 +243,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2024-03-10T07:21:24Z",
-      "updated_at": "2025-10-03T17:17:52Z",
+      "updated_at": "2025-10-04T02:17:28Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -1611,6 +1611,29 @@
       "isUserRepo": false
     },
     {
+      "id": 1066773592,
+      "name": "terraform-aws-kinesis-firehose",
+      "full_name": "tfstack/terraform-aws-kinesis-firehose",
+      "description": "Terraform module for AWS Kinesis Firehose delivery streams",
+      "html_url": "https://github.com/tfstack/terraform-aws-kinesis-firehose",
+      "homepage": null,
+      "language": "HCL",
+      "topics": [],
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "has_pages": false,
+      "created_at": "2025-09-30T00:14:10Z",
+      "updated_at": "2025-10-04T04:44:43Z",
+      "owner": {
+        "login": "tfstack",
+        "avatar_url": "https://avatars.githubusercontent.com/u/181625549?v=4",
+        "html_url": "https://github.com/tfstack"
+      },
+      "category": "terraform-modules",
+      "pagesUrl": null,
+      "isUserRepo": false
+    },
+    {
       "id": "feature-ag",
       "name": "ag",
       "full_name": "ag",
@@ -1737,14 +1760,14 @@
     }
   ],
   "metadata": {
-    "totalCount": 75,
+    "totalCount": 76,
     "categories": {
       "web-apps": 22,
-      "terraform-modules": 42,
+      "terraform-modules": 43,
       "github-actions": 6,
       "devcontainer-features": 5
     },
-    "lastUpdated": "2025-10-04T00:42:16.296Z",
+    "lastUpdated": "2025-10-04T06:13:58.550Z",
     "sources": {
       "users": [
         "jajera"
