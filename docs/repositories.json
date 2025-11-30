@@ -36,7 +36,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2025-06-12T09:44:12Z",
-      "updated_at": "2025-11-29T17:49:27Z",
+      "updated_at": "2025-11-29T23:50:53Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -113,6 +113,29 @@
       },
       "category": "web-apps",
       "pagesUrl": "https://jajera.github.io/aws-exam-practice",
+      "isUserRepo": true
+    },
+    {
+      "id": 1106714642,
+      "name": "aws-icons",
+      "full_name": "jajera/aws-icons",
+      "description": "Browse and copy aws service icons",
+      "html_url": "https://github.com/jajera/aws-icons",
+      "homepage": "https://jajera.github.io/aws-icons/",
+      "language": "HTML",
+      "topics": [],
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "has_pages": true,
+      "created_at": "2025-11-29T19:47:28Z",
+      "updated_at": "2025-11-29T23:18:53Z",
+      "owner": {
+        "login": "jajera",
+        "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
+        "html_url": "https://github.com/jajera"
+      },
+      "category": "web-apps",
+      "pagesUrl": "https://jajera.github.io/aws-icons",
       "isUserRepo": true
     },
     {
@@ -1829,14 +1852,14 @@
     }
   ],
   "metadata": {
-    "totalCount": 79,
+    "totalCount": 80,
     "categories": {
-      "web-apps": 23,
+      "web-apps": 24,
       "terraform-modules": 45,
       "github-actions": 6,
       "devcontainer-features": 5
     },
-    "lastUpdated": "2025-11-29T18:14:49.686Z",
+    "lastUpdated": "2025-11-30T01:02:14.337Z",
     "sources": {
       "users": [
         "jajera"
