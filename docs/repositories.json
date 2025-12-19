@@ -36,7 +36,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2025-06-12T09:44:12Z",
-      "updated_at": "2025-12-18T23:49:48Z",
+      "updated_at": "2025-12-19T05:54:11Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -243,7 +243,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2024-03-16T02:06:32Z",
-      "updated_at": "2025-12-18T17:19:48Z",
+      "updated_at": "2025-12-19T02:50:22Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -266,7 +266,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2025-06-01T12:08:27Z",
-      "updated_at": "2025-12-18T04:01:32Z",
+      "updated_at": "2025-12-19T04:02:37Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -289,7 +289,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2024-03-10T07:21:24Z",
-      "updated_at": "2025-12-18T17:26:32Z",
+      "updated_at": "2025-12-19T02:55:49Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -826,6 +826,29 @@
       },
       "category": "web-apps",
       "pagesUrl": "https://jdevto.github.io/kiro-demo",
+      "isUserRepo": false
+    },
+    {
+      "id": 1118720534,
+      "name": "tf-aws-eks-argocd-demo",
+      "full_name": "jdevto/tf-aws-eks-argocd-demo",
+      "description": "Terraform demo for Amazon EKS with Argo CD GitOps",
+      "html_url": "https://github.com/jdevto/tf-aws-eks-argocd-demo",
+      "homepage": null,
+      "language": "HCL",
+      "topics": [],
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "has_pages": true,
+      "created_at": "2025-12-18T07:18:19Z",
+      "updated_at": "2025-12-19T05:58:52Z",
+      "owner": {
+        "login": "jdevto",
+        "avatar_url": "https://avatars.githubusercontent.com/u/189578010?v=4",
+        "html_url": "https://github.com/jdevto"
+      },
+      "category": "web-apps",
+      "pagesUrl": "https://jdevto.github.io/tf-aws-eks-argocd-demo",
       "isUserRepo": false
     },
     {
@@ -1898,14 +1921,14 @@
     }
   ],
   "metadata": {
-    "totalCount": 82,
+    "totalCount": 83,
     "categories": {
-      "web-apps": 26,
+      "web-apps": 27,
       "terraform-modules": 45,
       "github-actions": 6,
       "devcontainer-features": 5
     },
-    "lastUpdated": "2025-12-19T00:53:20.652Z",
+    "lastUpdated": "2025-12-19T06:18:34.150Z",
     "sources": {
       "users": [
         "jajera"
