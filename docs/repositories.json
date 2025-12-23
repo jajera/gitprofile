@@ -36,7 +36,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2025-06-12T09:44:12Z",
-      "updated_at": "2025-12-23T05:46:30Z",
+      "updated_at": "2025-12-23T11:49:55Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -243,7 +243,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2024-03-16T02:06:32Z",
-      "updated_at": "2025-12-23T02:52:14Z",
+      "updated_at": "2025-12-23T09:21:05Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -289,7 +289,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2024-03-10T07:21:24Z",
-      "updated_at": "2025-12-23T02:57:40Z",
+      "updated_at": "2025-12-23T09:28:52Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -1795,6 +1795,29 @@
       "isUserRepo": false
     },
     {
+      "id": 1120940669,
+      "name": "terraform-provider-discord",
+      "full_name": "tfstack/terraform-provider-discord",
+      "description": "Terraform provider for managing Discord resources",
+      "html_url": "https://github.com/tfstack/terraform-provider-discord",
+      "homepage": "https://registry.terraform.io/providers/tfstack/discord/latest",
+      "language": "Go",
+      "topics": [],
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "has_pages": false,
+      "created_at": "2025-12-22T07:25:07Z",
+      "updated_at": "2025-12-23T09:03:59Z",
+      "owner": {
+        "login": "tfstack",
+        "avatar_url": "https://avatars.githubusercontent.com/u/181625549?v=4",
+        "html_url": "https://github.com/tfstack"
+      },
+      "category": "terraform-modules",
+      "pagesUrl": null,
+      "isUserRepo": false
+    },
+    {
       "id": "feature-ag",
       "name": "ag",
       "full_name": "ag",
@@ -1921,14 +1944,14 @@
     }
   ],
   "metadata": {
-    "totalCount": 83,
+    "totalCount": 84,
     "categories": {
       "web-apps": 27,
-      "terraform-modules": 45,
+      "terraform-modules": 46,
       "github-actions": 6,
       "devcontainer-features": 5
     },
-    "lastUpdated": "2025-12-23T06:19:17.292Z",
+    "lastUpdated": "2025-12-23T12:22:37.390Z",
     "sources": {
       "users": [
         "jajera"
