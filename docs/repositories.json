@@ -36,7 +36,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2025-06-12T09:44:12Z",
-      "updated_at": "2025-12-30T17:53:31Z",
+      "updated_at": "2025-12-30T23:49:39Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -1803,11 +1803,34 @@
       "homepage": "https://registry.terraform.io/providers/tfstack/discord/latest",
       "language": "Go",
       "topics": [],
-      "stargazers_count": 0,
+      "stargazers_count": 1,
       "forks_count": 0,
       "has_pages": false,
       "created_at": "2025-12-22T07:25:07Z",
-      "updated_at": "2025-12-23T09:03:59Z",
+      "updated_at": "2025-12-30T20:05:46Z",
+      "owner": {
+        "login": "tfstack",
+        "avatar_url": "https://avatars.githubusercontent.com/u/181625549?v=4",
+        "html_url": "https://github.com/tfstack"
+      },
+      "category": "terraform-modules",
+      "pagesUrl": null,
+      "isUserRepo": false
+    },
+    {
+      "id": 1124653400,
+      "name": "terraform-provider-githubx",
+      "full_name": "tfstack/terraform-provider-githubx",
+      "description": "A supplemental Terraform provider offering extended GitHub capabilities alongside the official provider",
+      "html_url": "https://github.com/tfstack/terraform-provider-githubx",
+      "homepage": "https://registry.terraform.io/providers/tfstack/githubx/latest",
+      "language": "Go",
+      "topics": [],
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "has_pages": false,
+      "created_at": "2025-12-29T11:34:43Z",
+      "updated_at": "2025-12-31T00:50:14Z",
       "owner": {
         "login": "tfstack",
         "avatar_url": "https://avatars.githubusercontent.com/u/181625549?v=4",
@@ -1944,14 +1967,14 @@
     }
   ],
   "metadata": {
-    "totalCount": 84,
+    "totalCount": 85,
     "categories": {
       "web-apps": 27,
-      "terraform-modules": 46,
+      "terraform-modules": 47,
       "github-actions": 6,
       "devcontainer-features": 5
     },
-    "lastUpdated": "2025-12-30T18:17:45.572Z",
+    "lastUpdated": "2025-12-31T00:55:07.931Z",
     "sources": {
       "users": [
         "jajera"
