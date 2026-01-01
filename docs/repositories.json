@@ -36,7 +36,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2025-06-12T09:44:12Z",
-      "updated_at": "2025-12-31T17:49:41Z",
+      "updated_at": "2025-12-31T23:50:14Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -849,6 +849,29 @@
       },
       "category": "web-apps",
       "pagesUrl": "https://jdevto.github.io/tf-aws-eks-argocd-demo",
+      "isUserRepo": false
+    },
+    {
+      "id": 1126000830,
+      "name": "github-pages-demo",
+      "full_name": "jdevto/github-pages-demo",
+      "description": "A simple demo repository showing how to set up GitHub Pages with GitHub Actions for automated deployment",
+      "html_url": "https://github.com/jdevto/github-pages-demo",
+      "homepage": "https://jdevto.github.io/github-pages-demo/",
+      "language": "HTML",
+      "topics": [],
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "has_pages": true,
+      "created_at": "2025-12-31T20:53:53Z",
+      "updated_at": "2025-12-31T22:06:10Z",
+      "owner": {
+        "login": "jdevto",
+        "avatar_url": "https://avatars.githubusercontent.com/u/189578010?v=4",
+        "html_url": "https://github.com/jdevto"
+      },
+      "category": "web-apps",
+      "pagesUrl": "https://jdevto.github.io/github-pages-demo",
       "isUserRepo": false
     },
     {
@@ -1967,14 +1990,14 @@
     }
   ],
   "metadata": {
-    "totalCount": 85,
+    "totalCount": 86,
     "categories": {
-      "web-apps": 27,
+      "web-apps": 28,
       "terraform-modules": 47,
       "github-actions": 6,
       "devcontainer-features": 5
     },
-    "lastUpdated": "2025-12-31T18:17:03.995Z",
+    "lastUpdated": "2026-01-01T01:00:05.578Z",
     "sources": {
       "users": [
         "jajera"
