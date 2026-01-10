@@ -36,7 +36,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2025-06-12T09:44:12Z",
-      "updated_at": "2026-01-10T11:49:37Z",
+      "updated_at": "2026-01-10T17:49:25Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -243,7 +243,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2024-03-16T02:06:32Z",
-      "updated_at": "2026-01-10T09:16:10Z",
+      "updated_at": "2026-01-10T17:13:52Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -289,7 +289,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2024-03-10T07:21:24Z",
-      "updated_at": "2026-01-10T09:20:09Z",
+      "updated_at": "2026-01-10T17:17:40Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -1404,29 +1404,6 @@
       "isUserRepo": false
     },
     {
-      "id": 1004213491,
-      "name": "terraform-aws-cloudtrail",
-      "full_name": "tfstack/terraform-aws-cloudtrail",
-      "description": "Terraform module for AWS CloudTrail with secure logging and retention",
-      "html_url": "https://github.com/tfstack/terraform-aws-cloudtrail",
-      "homepage": "https://registry.terraform.io/modules/tfstack/cloudtrail/aws/latest",
-      "language": "HCL",
-      "topics": [],
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "has_pages": false,
-      "created_at": "2025-06-18T09:35:30Z",
-      "updated_at": "2025-06-21T03:45:30Z",
-      "owner": {
-        "login": "tfstack",
-        "avatar_url": "https://avatars.githubusercontent.com/u/181625549?v=4",
-        "html_url": "https://github.com/tfstack"
-      },
-      "category": "terraform-modules",
-      "pagesUrl": null,
-      "isUserRepo": false
-    },
-    {
       "id": 1016494287,
       "name": "terraform-aws-rds-postgres",
       "full_name": "tfstack/terraform-aws-rds-postgres",
@@ -1990,14 +1967,14 @@
     }
   ],
   "metadata": {
-    "totalCount": 86,
+    "totalCount": 85,
     "categories": {
       "web-apps": 28,
-      "terraform-modules": 47,
+      "terraform-modules": 46,
       "github-actions": 6,
       "devcontainer-features": 5
     },
-    "lastUpdated": "2026-01-10T12:20:11.261Z",
+    "lastUpdated": "2026-01-10T18:16:36.083Z",
     "sources": {
       "users": [
         "jajera"
