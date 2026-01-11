@@ -36,7 +36,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2025-06-12T09:44:12Z",
-      "updated_at": "2026-01-10T17:49:25Z",
+      "updated_at": "2026-01-10T23:49:58Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -1404,6 +1404,29 @@
       "isUserRepo": false
     },
     {
+      "id": 1004213491,
+      "name": "terraform-aws-cloudtrail",
+      "full_name": "tfstack/terraform-aws-cloudtrail",
+      "description": "Terraform module for AWS CloudTrail with secure logging and retention",
+      "html_url": "https://github.com/tfstack/terraform-aws-cloudtrail",
+      "homepage": "https://registry.terraform.io/modules/tfstack/cloudtrail/aws/latest",
+      "language": "HCL",
+      "topics": [],
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "has_pages": false,
+      "created_at": "2025-06-18T09:35:30Z",
+      "updated_at": "2025-06-21T03:45:30Z",
+      "owner": {
+        "login": "tfstack",
+        "avatar_url": "https://avatars.githubusercontent.com/u/181625549?v=4",
+        "html_url": "https://github.com/tfstack"
+      },
+      "category": "terraform-modules",
+      "pagesUrl": null,
+      "isUserRepo": false
+    },
+    {
       "id": 1016494287,
       "name": "terraform-aws-rds-postgres",
       "full_name": "tfstack/terraform-aws-rds-postgres",
@@ -1967,14 +1990,14 @@
     }
   ],
   "metadata": {
-    "totalCount": 85,
+    "totalCount": 86,
     "categories": {
       "web-apps": 28,
-      "terraform-modules": 46,
+      "terraform-modules": 47,
       "github-actions": 6,
       "devcontainer-features": 5
     },
-    "lastUpdated": "2026-01-10T18:16:36.083Z",
+    "lastUpdated": "2026-01-11T01:00:11.509Z",
     "sources": {
       "users": [
         "jajera"
