@@ -36,7 +36,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2025-06-12T09:44:12Z",
-      "updated_at": "2026-01-13T05:47:40Z",
+      "updated_at": "2026-01-13T11:51:44Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -243,7 +243,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2024-03-16T02:06:32Z",
-      "updated_at": "2026-01-13T02:53:50Z",
+      "updated_at": "2026-01-13T09:24:12Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -289,7 +289,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2024-03-10T07:21:24Z",
-      "updated_at": "2026-01-13T02:56:32Z",
+      "updated_at": "2026-01-13T09:28:06Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -1478,14 +1478,14 @@
       "full_name": "tfstack/terraform-aws-vpc-lattice",
       "description": "Terraform module for secure service-to-service communication across VPCs using AWS VPC Lattice",
       "html_url": "https://github.com/tfstack/terraform-aws-vpc-lattice",
-      "homepage": null,
+      "homepage": "https://registry.terraform.io/modules/tfstack/vpc-lattice/aws/latest",
       "language": "HCL",
       "topics": [],
       "stargazers_count": 0,
       "forks_count": 0,
       "has_pages": false,
       "created_at": "2025-07-20T12:29:08Z",
-      "updated_at": "2025-09-15T03:10:23Z",
+      "updated_at": "2026-01-13T08:53:21Z",
       "owner": {
         "login": "tfstack",
         "avatar_url": "https://avatars.githubusercontent.com/u/181625549?v=4",
@@ -1997,7 +1997,7 @@
       "github-actions": 6,
       "devcontainer-features": 5
     },
-    "lastUpdated": "2026-01-13T06:19:25.209Z",
+    "lastUpdated": "2026-01-13T12:23:54.242Z",
     "sources": {
       "users": [
         "jajera"
