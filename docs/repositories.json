@@ -243,7 +243,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2024-03-16T02:06:32Z",
-      "updated_at": "2026-01-28T03:00:46Z",
+      "updated_at": "2026-01-28T09:29:57Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -289,7 +289,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2024-03-10T07:21:24Z",
-      "updated_at": "2026-01-28T03:02:36Z",
+      "updated_at": "2026-01-28T09:34:29Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -750,6 +750,29 @@
       "has_pages": false,
       "created_at": "2025-05-29T20:25:15Z",
       "updated_at": "2025-10-25T08:34:40Z",
+      "owner": {
+        "login": "actionsforge",
+        "avatar_url": "https://avatars.githubusercontent.com/u/193304877?v=4",
+        "html_url": "https://github.com/actionsforge"
+      },
+      "category": "github-actions",
+      "pagesUrl": null,
+      "isUserRepo": false
+    },
+    {
+      "id": 1143874498,
+      "name": "actions-terraform-conftest",
+      "full_name": "actionsforge/actions-terraform-conftest",
+      "description": "Reusable GitHub Action to run Conftest for Terraform",
+      "html_url": "https://github.com/actionsforge/actions-terraform-conftest",
+      "homepage": null,
+      "language": "TypeScript",
+      "topics": [],
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "has_pages": false,
+      "created_at": "2026-01-28T03:44:46Z",
+      "updated_at": "2026-01-28T10:17:06Z",
       "owner": {
         "login": "actionsforge",
         "avatar_url": "https://avatars.githubusercontent.com/u/193304877?v=4",
@@ -2013,14 +2036,14 @@
     }
   ],
   "metadata": {
-    "totalCount": 87,
+    "totalCount": 88,
     "categories": {
       "web-apps": 28,
       "terraform-modules": 48,
-      "github-actions": 6,
+      "github-actions": 7,
       "devcontainer-features": 5
     },
-    "lastUpdated": "2026-01-28T06:22:10.729Z",
+    "lastUpdated": "2026-01-28T12:25:56.826Z",
     "sources": {
       "users": [
         "jajera"
