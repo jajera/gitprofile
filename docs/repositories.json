@@ -243,7 +243,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2024-03-16T02:06:32Z",
-      "updated_at": "2026-02-21T17:21:26Z",
+      "updated_at": "2026-02-22T03:33:31Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -266,7 +266,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2025-06-01T12:08:27Z",
-      "updated_at": "2026-02-21T04:44:41Z",
+      "updated_at": "2026-02-22T04:57:31Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -289,7 +289,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2024-03-10T07:21:24Z",
-      "updated_at": "2026-02-21T17:26:35Z",
+      "updated_at": "2026-02-22T03:36:23Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -1611,6 +1611,29 @@
       "isUserRepo": false
     },
     {
+      "id": 1028680871,
+      "name": "terraform-aws-cognito",
+      "full_name": "tfstack/terraform-aws-cognito",
+      "description": "Terraform module to provision and manage AWS Cognito for authentication and user management",
+      "html_url": "https://github.com/tfstack/terraform-aws-cognito",
+      "homepage": "https://registry.terraform.io/modules/tfstack/cognito/aws/latest",
+      "language": "HCL",
+      "topics": [],
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "has_pages": false,
+      "created_at": "2025-07-29T22:46:15Z",
+      "updated_at": "2026-02-22T01:52:35Z",
+      "owner": {
+        "login": "tfstack",
+        "avatar_url": "https://avatars.githubusercontent.com/u/181625549?v=4",
+        "html_url": "https://github.com/tfstack"
+      },
+      "category": "terraform-modules",
+      "pagesUrl": null,
+      "isUserRepo": false
+    },
+    {
       "id": 1034423488,
       "name": "terraform-aws-eks",
       "full_name": "tfstack/terraform-aws-eks",
@@ -2036,14 +2059,14 @@
     }
   ],
   "metadata": {
-    "totalCount": 88,
+    "totalCount": 89,
     "categories": {
       "web-apps": 28,
-      "terraform-modules": 48,
+      "terraform-modules": 49,
       "github-actions": 7,
       "devcontainer-features": 5
     },
-    "lastUpdated": "2026-02-22T01:07:18.715Z",
+    "lastUpdated": "2026-02-22T06:34:50.892Z",
     "sources": {
       "users": [
         "jajera"
