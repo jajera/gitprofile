@@ -93,6 +93,29 @@
       "isUserRepo": true
     },
     {
+      "id": 1175179081,
+      "name": "aws-eks-walkthrough",
+      "full_name": "jajera/aws-eks-walkthrough",
+      "description": "Build Amazon EKS from scratch: VPC, networking, cluster, and platform components",
+      "html_url": "https://github.com/jajera/aws-eks-walkthrough",
+      "homepage": null,
+      "language": null,
+      "topics": [],
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "has_pages": true,
+      "created_at": "2026-03-07T10:45:30Z",
+      "updated_at": "2026-03-07T10:45:33Z",
+      "owner": {
+        "login": "jajera",
+        "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
+        "html_url": "https://github.com/jajera"
+      },
+      "category": "web-apps",
+      "pagesUrl": "https://jajera.github.io/aws-eks-walkthrough",
+      "isUserRepo": true
+    },
+    {
       "id": 1078159255,
       "name": "aws-exam-practice",
       "full_name": "jajera/aws-exam-practice",
@@ -243,7 +266,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2024-03-16T02:06:32Z",
-      "updated_at": "2026-03-07T03:12:08Z",
+      "updated_at": "2026-03-07T09:24:26Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -289,7 +312,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2024-03-10T07:21:24Z",
-      "updated_at": "2026-03-07T03:15:55Z",
+      "updated_at": "2026-03-07T09:29:56Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -895,6 +918,29 @@
       },
       "category": "web-apps",
       "pagesUrl": "https://jdevto.github.io/github-pages-demo",
+      "isUserRepo": false
+    },
+    {
+      "id": 1175122599,
+      "name": "astrodocs-demo",
+      "full_name": "jdevto/astrodocs-demo",
+      "description": "A simple static documentation site powered by Astro Starlight and deployed on GitHub Pages",
+      "html_url": "https://github.com/jdevto/astrodocs-demo",
+      "homepage": "https://jdevto.github.io/astrodocs-demo/",
+      "language": "CSS",
+      "topics": [],
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "has_pages": true,
+      "created_at": "2026-03-07T09:01:57Z",
+      "updated_at": "2026-03-07T10:14:52Z",
+      "owner": {
+        "login": "jdevto",
+        "avatar_url": "https://avatars.githubusercontent.com/u/189578010?v=4",
+        "html_url": "https://github.com/jdevto"
+      },
+      "category": "web-apps",
+      "pagesUrl": "https://jdevto.github.io/astrodocs-demo",
       "isUserRepo": false
     },
     {
@@ -2059,14 +2105,14 @@
     }
   ],
   "metadata": {
-    "totalCount": 89,
+    "totalCount": 91,
     "categories": {
-      "web-apps": 28,
+      "web-apps": 30,
       "terraform-modules": 49,
       "github-actions": 7,
       "devcontainer-features": 5
     },
-    "lastUpdated": "2026-03-07T06:25:49.318Z",
+    "lastUpdated": "2026-03-07T12:23:27.879Z",
     "sources": {
       "users": [
         "jajera"
