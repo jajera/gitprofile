@@ -289,7 +289,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2024-03-16T02:06:32Z",
-      "updated_at": "2026-04-11T17:26:49Z",
+      "updated_at": "2026-04-12T04:13:04Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -312,7 +312,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2025-06-01T12:08:27Z",
-      "updated_at": "2026-04-11T05:03:37Z",
+      "updated_at": "2026-04-12T05:31:37Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -335,7 +335,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2024-03-10T07:21:24Z",
-      "updated_at": "2026-04-11T17:32:38Z",
+      "updated_at": "2026-04-12T04:12:15Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -573,6 +573,29 @@
       },
       "category": "web-apps",
       "pagesUrl": "https://jajera.github.io/resume-optimizer",
+      "isUserRepo": true
+    },
+    {
+      "id": 1204924030,
+      "name": "s3-files-workloads",
+      "full_name": "jajera/s3-files-workloads",
+      "description": "S3 Files by examples",
+      "html_url": "https://github.com/jajera/s3-files-workloads",
+      "homepage": "https://jajera.github.io/s3-files-workloads/",
+      "language": "MDX",
+      "topics": [],
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "has_pages": true,
+      "created_at": "2026-04-08T13:16:33Z",
+      "updated_at": "2026-04-12T03:58:41Z",
+      "owner": {
+        "login": "jajera",
+        "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
+        "html_url": "https://github.com/jajera"
+      },
+      "category": "web-apps",
+      "pagesUrl": "https://jajera.github.io/s3-files-workloads",
       "isUserRepo": true
     },
     {
@@ -2174,14 +2197,14 @@
     }
   ],
   "metadata": {
-    "totalCount": 94,
+    "totalCount": 95,
     "categories": {
-      "web-apps": 31,
+      "web-apps": 32,
       "terraform-modules": 51,
       "github-actions": 7,
       "devcontainer-features": 5
     },
-    "lastUpdated": "2026-04-12T01:21:43.238Z",
+    "lastUpdated": "2026-04-12T07:03:06.666Z",
     "sources": {
       "users": [
         "jajera"
