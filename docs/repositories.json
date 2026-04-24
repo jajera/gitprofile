@@ -289,7 +289,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2024-03-16T02:06:32Z",
-      "updated_at": "2026-04-23T18:03:23Z",
+      "updated_at": "2026-04-24T04:14:45Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -312,7 +312,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2025-06-01T12:08:27Z",
-      "updated_at": "2026-04-23T05:38:32Z",
+      "updated_at": "2026-04-24T05:43:48Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -335,7 +335,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2024-03-10T07:21:24Z",
-      "updated_at": "2026-04-23T18:07:15Z",
+      "updated_at": "2026-04-24T04:18:55Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -1205,11 +1205,11 @@
       "homepage": "https://registry.terraform.io/modules/tfstack/s3-static-website/aws/latest",
       "language": "HCL",
       "topics": [],
-      "stargazers_count": 0,
+      "stargazers_count": 1,
       "forks_count": 0,
       "has_pages": false,
       "created_at": "2024-12-20T03:51:26Z",
-      "updated_at": "2025-08-20T01:40:22Z",
+      "updated_at": "2026-04-24T06:32:10Z",
       "owner": {
         "login": "tfstack",
         "avatar_url": "https://avatars.githubusercontent.com/u/181625549?v=4",
@@ -2229,7 +2229,7 @@
       "github-actions": 7,
       "devcontainer-features": 6
     },
-    "lastUpdated": "2026-04-24T01:25:22.678Z",
+    "lastUpdated": "2026-04-24T07:47:47.584Z",
     "sources": {
       "users": [
         "jajera"
