@@ -289,7 +289,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2024-03-16T02:06:32Z",
-      "updated_at": "2026-05-31T05:14:25Z",
+      "updated_at": "2026-05-31T10:53:18Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -335,7 +335,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2024-03-10T07:21:24Z",
-      "updated_at": "2026-05-31T05:19:31Z",
+      "updated_at": "2026-05-31T10:59:06Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -2071,6 +2071,75 @@
       "isUserRepo": false
     },
     {
+      "id": 1250114795,
+      "name": "terraform-aws-managed-prometheus",
+      "full_name": "tfstack/terraform-aws-managed-prometheus",
+      "description": "Terraform module for Amazon Managed Service for Prometheus workspaces and related AMP resources",
+      "html_url": "https://github.com/tfstack/terraform-aws-managed-prometheus",
+      "homepage": null,
+      "language": "HCL",
+      "topics": [],
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "has_pages": false,
+      "created_at": "2026-05-26T10:15:19Z",
+      "updated_at": "2026-05-31T10:05:13Z",
+      "owner": {
+        "login": "tfstack",
+        "avatar_url": "https://avatars.githubusercontent.com/u/181625549?v=4",
+        "html_url": "https://github.com/tfstack"
+      },
+      "category": "terraform-modules",
+      "pagesUrl": null,
+      "isUserRepo": false
+    },
+    {
+      "id": 1251114462,
+      "name": "terraform-aws-managed-grafana",
+      "full_name": "tfstack/terraform-aws-managed-grafana",
+      "description": "Terraform module for Amazon Managed Grafana workspaces and related AMG resources",
+      "html_url": "https://github.com/tfstack/terraform-aws-managed-grafana",
+      "homepage": null,
+      "language": "HCL",
+      "topics": [],
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "has_pages": false,
+      "created_at": "2026-05-27T08:57:30Z",
+      "updated_at": "2026-05-31T10:16:17Z",
+      "owner": {
+        "login": "tfstack",
+        "avatar_url": "https://avatars.githubusercontent.com/u/181625549?v=4",
+        "html_url": "https://github.com/tfstack"
+      },
+      "category": "terraform-modules",
+      "pagesUrl": null,
+      "isUserRepo": false
+    },
+    {
+      "id": 1254140333,
+      "name": "terraform-pagerduty-platform",
+      "full_name": "tfstack/terraform-pagerduty-platform",
+      "description": "PagerDuty Terraform modules with submodule layout for services, integrations, and on-call resources",
+      "html_url": "https://github.com/tfstack/terraform-pagerduty-platform",
+      "homepage": null,
+      "language": "HCL",
+      "topics": [],
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "has_pages": false,
+      "created_at": "2026-05-30T07:29:43Z",
+      "updated_at": "2026-05-31T10:40:46Z",
+      "owner": {
+        "login": "tfstack",
+        "avatar_url": "https://avatars.githubusercontent.com/u/181625549?v=4",
+        "html_url": "https://github.com/tfstack"
+      },
+      "category": "terraform-modules",
+      "pagesUrl": null,
+      "isUserRepo": false
+    },
+    {
       "id": "feature-ag",
       "name": "ag",
       "full_name": "ag",
@@ -2222,14 +2291,14 @@
     }
   ],
   "metadata": {
-    "totalCount": 96,
+    "totalCount": 99,
     "categories": {
       "web-apps": 32,
-      "terraform-modules": 51,
+      "terraform-modules": 54,
       "github-actions": 7,
       "devcontainer-features": 6
     },
-    "lastUpdated": "2026-05-31T08:33:50.250Z",
+    "lastUpdated": "2026-05-31T13:09:44.935Z",
     "sources": {
       "users": [
         "jajera"
