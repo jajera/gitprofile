@@ -139,6 +139,29 @@
       "isUserRepo": true
     },
     {
+      "id": 1261041791,
+      "name": "aws-gcp-interconnect-walkthrough",
+      "full_name": "jajera/aws-gcp-interconnect-walkthrough",
+      "description": "Step-by-step walkthrough for private AWS ↔ GCP connectivity using AWS Interconnect multicloud and GCP Partner Cross-Cloud Interconnect",
+      "html_url": "https://github.com/jajera/aws-gcp-interconnect-walkthrough",
+      "homepage": "https://jajera.github.io/aws-gcp-interconnect-walkthrough/",
+      "language": "MDX",
+      "topics": [],
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "has_pages": true,
+      "created_at": "2026-06-06T06:55:57Z",
+      "updated_at": "2026-06-06T09:13:14Z",
+      "owner": {
+        "login": "jajera",
+        "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
+        "html_url": "https://github.com/jajera"
+      },
+      "category": "web-apps",
+      "pagesUrl": "https://jajera.github.io/aws-gcp-interconnect-walkthrough",
+      "isUserRepo": true
+    },
+    {
       "id": 1106714642,
       "name": "aws-icons",
       "full_name": "jajera/aws-icons",
@@ -289,7 +312,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2024-03-16T02:06:32Z",
-      "updated_at": "2026-06-06T04:50:41Z",
+      "updated_at": "2026-06-06T10:50:52Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -335,7 +358,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2024-03-10T07:21:24Z",
-      "updated_at": "2026-06-06T04:55:18Z",
+      "updated_at": "2026-06-06T10:55:03Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -2291,14 +2314,14 @@
     }
   ],
   "metadata": {
-    "totalCount": 99,
+    "totalCount": 100,
     "categories": {
-      "web-apps": 32,
+      "web-apps": 33,
       "terraform-modules": 54,
       "github-actions": 7,
       "devcontainer-features": 6
     },
-    "lastUpdated": "2026-06-06T08:22:48.390Z",
+    "lastUpdated": "2026-06-06T13:04:56.185Z",
     "sources": {
       "users": [
         "jajera"
