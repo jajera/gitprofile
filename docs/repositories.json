@@ -147,11 +147,11 @@
       "homepage": "https://jajera.github.io/aws-gcp-interconnect-walkthrough/",
       "language": "MDX",
       "topics": [],
-      "stargazers_count": 0,
+      "stargazers_count": 1,
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2026-06-06T06:55:57Z",
-      "updated_at": "2026-06-06T20:53:17Z",
+      "updated_at": "2026-06-08T18:33:54Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -312,7 +312,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2024-03-16T02:06:32Z",
-      "updated_at": "2026-06-08T13:01:28Z",
+      "updated_at": "2026-06-08T19:17:49Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -358,7 +358,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2024-03-10T07:21:24Z",
-      "updated_at": "2026-06-08T13:08:32Z",
+      "updated_at": "2026-06-08T19:23:49Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -2321,7 +2321,7 @@
       "github-actions": 7,
       "devcontainer-features": 6
     },
-    "lastUpdated": "2026-06-08T15:24:51.433Z",
+    "lastUpdated": "2026-06-08T19:59:36.404Z",
     "sources": {
       "users": [
         "jajera"
