@@ -312,7 +312,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2024-03-16T02:06:32Z",
-      "updated_at": "2026-06-08T19:17:49Z",
+      "updated_at": "2026-06-09T04:59:53Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -335,7 +335,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2025-06-01T12:08:27Z",
-      "updated_at": "2026-06-08T08:18:10Z",
+      "updated_at": "2026-06-09T06:56:36Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -358,7 +358,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2024-03-10T07:21:24Z",
-      "updated_at": "2026-06-08T19:23:49Z",
+      "updated_at": "2026-06-09T05:07:28Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -619,6 +619,29 @@
       },
       "category": "web-apps",
       "pagesUrl": "https://jajera.github.io/s3-files-workloads",
+      "isUserRepo": true
+    },
+    {
+      "id": 1263602525,
+      "name": "s3-vectors-rag-workload",
+      "full_name": "jajera/s3-vectors-rag-workload",
+      "description": "S3 Vectors RAG usage example",
+      "html_url": "https://github.com/jajera/s3-vectors-rag-workload",
+      "homepage": "https://jajera.github.io/s3-vectors-rag-workload/",
+      "language": "MDX",
+      "topics": [],
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "has_pages": true,
+      "created_at": "2026-06-09T05:22:52Z",
+      "updated_at": "2026-06-09T08:45:46Z",
+      "owner": {
+        "login": "jajera",
+        "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
+        "html_url": "https://github.com/jajera"
+      },
+      "category": "web-apps",
+      "pagesUrl": "https://jajera.github.io/s3-vectors-rag-workload",
       "isUserRepo": true
     },
     {
@@ -2314,14 +2337,14 @@
     }
   ],
   "metadata": {
-    "totalCount": 100,
+    "totalCount": 101,
     "categories": {
-      "web-apps": 33,
+      "web-apps": 34,
       "terraform-modules": 54,
       "github-actions": 7,
       "devcontainer-features": 6
     },
-    "lastUpdated": "2026-06-09T01:56:13.102Z",
+    "lastUpdated": "2026-06-09T08:57:37.307Z",
     "sources": {
       "users": [
         "jajera"
