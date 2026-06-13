@@ -277,6 +277,29 @@
       "isUserRepo": true
     },
     {
+      "id": 1267930747,
+      "name": "ecs-express-mode-walkthrough",
+      "full_name": "jajera/ecs-express-mode-walkthrough",
+      "description": "ECS Express Mode by example",
+      "html_url": "https://github.com/jajera/ecs-express-mode-walkthrough",
+      "homepage": "https://jajera.github.io/ecs-express-mode-walkthrough/",
+      "language": "MDX",
+      "topics": [],
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "has_pages": true,
+      "created_at": "2026-06-13T01:39:18Z",
+      "updated_at": "2026-06-13T11:41:27Z",
+      "owner": {
+        "login": "jajera",
+        "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
+        "html_url": "https://github.com/jajera"
+      },
+      "category": "web-apps",
+      "pagesUrl": "https://jajera.github.io/ecs-express-mode-walkthrough",
+      "isUserRepo": true
+    },
+    {
       "id": 994047225,
       "name": "eliza",
       "full_name": "jajera/eliza",
@@ -312,7 +335,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2024-03-16T02:06:32Z",
-      "updated_at": "2026-06-13T05:17:06Z",
+      "updated_at": "2026-06-13T11:11:00Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -358,7 +381,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2024-03-10T07:21:24Z",
-      "updated_at": "2026-06-13T05:22:56Z",
+      "updated_at": "2026-06-13T11:15:55Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -2337,14 +2360,14 @@
     }
   ],
   "metadata": {
-    "totalCount": 101,
+    "totalCount": 102,
     "categories": {
-      "web-apps": 34,
+      "web-apps": 35,
       "terraform-modules": 54,
       "github-actions": 7,
       "devcontainer-features": 6
     },
-    "lastUpdated": "2026-06-13T08:45:45.477Z",
+    "lastUpdated": "2026-06-13T13:22:11.388Z",
     "sources": {
       "users": [
         "jajera"
