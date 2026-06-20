@@ -645,6 +645,29 @@
       "isUserRepo": true
     },
     {
+      "id": 1274280409,
+      "name": "s3-annotations-walkthrough",
+      "full_name": "jajera/s3-annotations-walkthrough",
+      "description": "S3 Annotation by example",
+      "html_url": "https://github.com/jajera/s3-annotations-walkthrough",
+      "homepage": null,
+      "language": "MDX",
+      "topics": [],
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "has_pages": true,
+      "created_at": "2026-06-19T10:59:24Z",
+      "updated_at": "2026-06-19T21:42:11Z",
+      "owner": {
+        "login": "jajera",
+        "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
+        "html_url": "https://github.com/jajera"
+      },
+      "category": "web-apps",
+      "pagesUrl": "https://jajera.github.io/s3-annotations-walkthrough",
+      "isUserRepo": true
+    },
+    {
       "id": 1204924030,
       "name": "s3-files-workloads",
       "full_name": "jajera/s3-files-workloads",
@@ -818,7 +841,7 @@
       "forks_count": 0,
       "has_pages": false,
       "created_at": "2025-01-04T12:01:09Z",
-      "updated_at": "2025-01-08T01:57:34Z",
+      "updated_at": "2026-06-20T00:08:48Z",
       "owner": {
         "login": "actionsforge",
         "avatar_url": "https://avatars.githubusercontent.com/u/193304877?v=4",
@@ -864,7 +887,7 @@
       "forks_count": 0,
       "has_pages": false,
       "created_at": "2025-04-20T20:34:59Z",
-      "updated_at": "2025-04-22T18:04:22Z",
+      "updated_at": "2026-06-20T01:19:15Z",
       "owner": {
         "login": "actionsforge",
         "avatar_url": "https://avatars.githubusercontent.com/u/193304877?v=4",
@@ -887,7 +910,7 @@
       "forks_count": 0,
       "has_pages": false,
       "created_at": "2025-04-23T00:47:31Z",
-      "updated_at": "2025-04-26T09:08:16Z",
+      "updated_at": "2026-06-20T01:37:49Z",
       "owner": {
         "login": "actionsforge",
         "avatar_url": "https://avatars.githubusercontent.com/u/193304877?v=4",
@@ -956,7 +979,7 @@
       "forks_count": 0,
       "has_pages": false,
       "created_at": "2026-01-28T03:44:46Z",
-      "updated_at": "2026-02-05T10:41:10Z",
+      "updated_at": "2026-06-20T00:25:55Z",
       "owner": {
         "login": "actionsforge",
         "avatar_url": "https://avatars.githubusercontent.com/u/193304877?v=4",
@@ -2406,14 +2429,14 @@
     }
   ],
   "metadata": {
-    "totalCount": 104,
+    "totalCount": 105,
     "categories": {
-      "web-apps": 36,
+      "web-apps": 37,
       "terraform-modules": 55,
       "github-actions": 7,
       "devcontainer-features": 6
     },
-    "lastUpdated": "2026-06-19T19:24:03.103Z",
+    "lastUpdated": "2026-06-20T02:08:36.468Z",
     "sources": {
       "users": [
         "jajera"
