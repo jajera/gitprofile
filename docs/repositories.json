@@ -185,6 +185,29 @@
       "isUserRepo": true
     },
     {
+      "id": 1276017236,
+      "name": "aws-iot-walkthrough",
+      "full_name": "jajera/aws-iot-walkthrough",
+      "description": "Step-by-step walkthrough for the ESP32 AWS IoT demo",
+      "html_url": "https://github.com/jajera/aws-iot-walkthrough",
+      "homepage": "https://jajera.github.io/aws-iot-walkthrough/",
+      "language": "MDX",
+      "topics": [],
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "has_pages": true,
+      "created_at": "2026-06-21T12:42:22Z",
+      "updated_at": "2026-06-22T11:12:57Z",
+      "owner": {
+        "login": "jajera",
+        "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
+        "html_url": "https://github.com/jajera"
+      },
+      "category": "web-apps",
+      "pagesUrl": "https://jajera.github.io/aws-iot-walkthrough",
+      "isUserRepo": true
+    },
+    {
       "id": 1186058090,
       "name": "aws-lambda-managed-instance-walkthrough",
       "full_name": "jajera/aws-lambda-managed-instance-walkthrough",
@@ -335,7 +358,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2024-03-16T02:06:32Z",
-      "updated_at": "2026-06-21T18:15:57Z",
+      "updated_at": "2026-06-22T06:23:54Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -358,7 +381,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2025-06-01T12:08:27Z",
-      "updated_at": "2026-06-21T08:07:52Z",
+      "updated_at": "2026-06-22T09:18:12Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -381,7 +404,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2024-03-10T07:21:24Z",
-      "updated_at": "2026-06-21T18:21:48Z",
+      "updated_at": "2026-06-22T06:31:16Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -2429,14 +2452,14 @@
     }
   ],
   "metadata": {
-    "totalCount": 105,
+    "totalCount": 106,
     "categories": {
-      "web-apps": 37,
+      "web-apps": 38,
       "terraform-modules": 55,
       "github-actions": 7,
       "devcontainer-features": 6
     },
-    "lastUpdated": "2026-06-22T02:36:40.074Z",
+    "lastUpdated": "2026-06-22T11:31:37.198Z",
     "sources": {
       "users": [
         "jajera"
