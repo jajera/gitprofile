@@ -691,6 +691,29 @@
       "isUserRepo": true
     },
     {
+      "id": 1288226619,
+      "name": "route53-classic-multi-account-walkthrough",
+      "full_name": "jajera/route53-classic-multi-account-walkthrough",
+      "description": "Classic Route 53 private DNS across multiple AWS accounts",
+      "html_url": "https://github.com/jajera/route53-classic-multi-account-walkthrough",
+      "homepage": null,
+      "language": null,
+      "topics": [],
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "has_pages": true,
+      "created_at": "2026-07-03T11:47:58Z",
+      "updated_at": "2026-07-03T11:48:03Z",
+      "owner": {
+        "login": "jajera",
+        "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
+        "html_url": "https://github.com/jajera"
+      },
+      "category": "web-apps",
+      "pagesUrl": "https://jajera.github.io/route53-classic-multi-account-walkthrough",
+      "isUserRepo": true
+    },
+    {
       "id": 1274280409,
       "name": "s3-annotations-walkthrough",
       "full_name": "jajera/s3-annotations-walkthrough",
@@ -2475,14 +2498,14 @@
     }
   ],
   "metadata": {
-    "totalCount": 107,
+    "totalCount": 108,
     "categories": {
-      "web-apps": 39,
+      "web-apps": 40,
       "terraform-modules": 55,
       "github-actions": 7,
       "devcontainer-features": 6
     },
-    "lastUpdated": "2026-07-03T19:00:05.353Z",
+    "lastUpdated": "2026-07-04T01:47:40.390Z",
     "sources": {
       "users": [
         "jajera"
