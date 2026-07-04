@@ -381,7 +381,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2024-03-16T02:06:32Z",
-      "updated_at": "2026-07-03T18:08:49Z",
+      "updated_at": "2026-07-04T04:30:14Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -404,7 +404,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2025-06-01T12:08:27Z",
-      "updated_at": "2026-07-03T06:39:27Z",
+      "updated_at": "2026-07-04T06:26:59Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -427,7 +427,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2024-03-10T07:21:24Z",
-      "updated_at": "2026-07-03T18:14:44Z",
+      "updated_at": "2026-07-04T04:37:05Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -696,14 +696,14 @@
       "full_name": "jajera/route53-classic-multi-account-walkthrough",
       "description": "Classic Route 53 private DNS across multiple AWS accounts",
       "html_url": "https://github.com/jajera/route53-classic-multi-account-walkthrough",
-      "homepage": null,
-      "language": null,
+      "homepage": "https://jajera.github.io/route53-classic-multi-account-walkthrough/",
+      "language": "JavaScript",
       "topics": [],
       "stargazers_count": 0,
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2026-07-03T11:47:58Z",
-      "updated_at": "2026-07-03T11:48:03Z",
+      "updated_at": "2026-07-04T03:50:29Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -2505,7 +2505,7 @@
       "github-actions": 7,
       "devcontainer-features": 6
     },
-    "lastUpdated": "2026-07-04T01:47:40.390Z",
+    "lastUpdated": "2026-07-04T08:21:13.323Z",
     "sources": {
       "users": [
         "jajera"
