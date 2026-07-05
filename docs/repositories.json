@@ -24,6 +24,29 @@
       "isUserRepo": true
     },
     {
+      "id": 1289576117,
+      "name": "amazon-vpc-ipam-multi-account-walkthrough",
+      "full_name": "jajera/amazon-vpc-ipam-multi-account-walkthrough",
+      "description": "Multi account Amazon VPC IPAM walkthrough",
+      "html_url": "https://github.com/jajera/amazon-vpc-ipam-multi-account-walkthrough",
+      "homepage": "https://jajera.github.io/amazon-vpc-ipam-multi-account-walkthrough/",
+      "language": "JavaScript",
+      "topics": [],
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "has_pages": true,
+      "created_at": "2026-07-04T23:48:44Z",
+      "updated_at": "2026-07-05T05:10:37Z",
+      "owner": {
+        "login": "jajera",
+        "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
+        "html_url": "https://github.com/jajera"
+      },
+      "category": "web-apps",
+      "pagesUrl": "https://jajera.github.io/amazon-vpc-ipam-multi-account-walkthrough",
+      "isUserRepo": true
+    },
+    {
       "id": 1000770221,
       "name": "aurora-nz-nowcast",
       "full_name": "jajera/aurora-nz-nowcast",
@@ -381,7 +404,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2024-03-16T02:06:32Z",
-      "updated_at": "2026-07-04T17:58:40Z",
+      "updated_at": "2026-07-05T04:52:21Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -404,7 +427,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2025-06-01T12:08:27Z",
-      "updated_at": "2026-07-04T06:26:59Z",
+      "updated_at": "2026-07-05T06:48:21Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -427,7 +450,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2024-03-10T07:21:24Z",
-      "updated_at": "2026-07-04T18:03:04Z",
+      "updated_at": "2026-07-05T04:58:39Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -2498,14 +2521,14 @@
     }
   ],
   "metadata": {
-    "totalCount": 108,
+    "totalCount": 109,
     "categories": {
-      "web-apps": 40,
+      "web-apps": 41,
       "terraform-modules": 55,
       "github-actions": 7,
       "devcontainer-features": 6
     },
-    "lastUpdated": "2026-07-05T01:52:26.334Z",
+    "lastUpdated": "2026-07-05T08:38:56.836Z",
     "sources": {
       "users": [
         "jajera"
