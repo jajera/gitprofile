@@ -2194,11 +2194,11 @@
       "homepage": "https://registry.terraform.io/providers/tfstack/discord/latest",
       "language": "Go",
       "topics": [],
-      "stargazers_count": 2,
+      "stargazers_count": 3,
       "forks_count": 1,
       "has_pages": false,
       "created_at": "2025-12-22T07:25:07Z",
-      "updated_at": "2026-06-24T19:29:02Z",
+      "updated_at": "2026-07-09T20:54:43Z",
       "owner": {
         "login": "tfstack",
         "avatar_url": "https://avatars.githubusercontent.com/u/181625549?v=4",
@@ -2528,7 +2528,7 @@
       "github-actions": 7,
       "devcontainer-features": 6
     },
-    "lastUpdated": "2026-07-09T19:19:56.240Z",
+    "lastUpdated": "2026-07-10T01:31:59.001Z",
     "sources": {
       "users": [
         "jajera"
