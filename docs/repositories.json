@@ -32,11 +32,11 @@
       "homepage": "https://jajera.github.io/amazon-vpc-ipam-multi-account-walkthrough/",
       "language": "JavaScript",
       "topics": [],
-      "stargazers_count": 0,
+      "stargazers_count": 1,
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2026-07-04T23:48:44Z",
-      "updated_at": "2026-07-05T05:10:37Z",
+      "updated_at": "2026-07-10T19:08:13Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -404,7 +404,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2024-03-16T02:06:32Z",
-      "updated_at": "2026-07-10T11:46:10Z",
+      "updated_at": "2026-07-10T18:19:19Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -450,7 +450,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2024-03-10T07:21:24Z",
-      "updated_at": "2026-07-10T11:54:00Z",
+      "updated_at": "2026-07-10T18:26:09Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -2528,7 +2528,7 @@
       "github-actions": 7,
       "devcontainer-features": 6
     },
-    "lastUpdated": "2026-07-10T13:54:15.550Z",
+    "lastUpdated": "2026-07-10T19:15:01.625Z",
     "sources": {
       "users": [
         "jajera"
