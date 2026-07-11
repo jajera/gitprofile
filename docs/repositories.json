@@ -300,6 +300,29 @@
       "isUserRepo": true
     },
     {
+      "id": 1296984921,
+      "name": "aws-private-connectivity-patterns-walkthrough",
+      "full_name": "jajera/aws-private-connectivity-patterns-walkthrough",
+      "description": "Hands on Terraform walkthrough of AWS private cross account connectivity patterns",
+      "html_url": "https://github.com/jajera/aws-private-connectivity-patterns-walkthrough",
+      "homepage": "https://jajera.github.io/aws-private-connectivity-patterns-walkthrough/",
+      "language": "MDX",
+      "topics": [],
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "has_pages": true,
+      "created_at": "2026-07-10T23:47:00Z",
+      "updated_at": "2026-07-11T01:56:07Z",
+      "owner": {
+        "login": "jajera",
+        "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
+        "html_url": "https://github.com/jajera"
+      },
+      "category": "web-apps",
+      "pagesUrl": "https://jajera.github.io/aws-private-connectivity-patterns-walkthrough",
+      "isUserRepo": true
+    },
+    {
       "id": 1006803888,
       "name": "datadog-hcl-generator",
       "full_name": "jajera/datadog-hcl-generator",
@@ -404,7 +427,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2024-03-16T02:06:32Z",
-      "updated_at": "2026-07-10T18:19:19Z",
+      "updated_at": "2026-07-11T04:08:28Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -427,7 +450,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2025-06-01T12:08:27Z",
-      "updated_at": "2026-07-10T06:53:04Z",
+      "updated_at": "2026-07-11T05:48:05Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -450,7 +473,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2024-03-10T07:21:24Z",
-      "updated_at": "2026-07-10T18:26:09Z",
+      "updated_at": "2026-07-11T04:14:45Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -458,6 +481,29 @@
       },
       "category": "web-apps",
       "pagesUrl": "https://jajera.github.io/geonet-s3-volcano-demo",
+      "isUserRepo": true
+    },
+    {
+      "id": 1297081898,
+      "name": "guides",
+      "full_name": "jajera/guides",
+      "description": "Compilation of walkthroughs and articles",
+      "html_url": "https://github.com/jajera/guides",
+      "homepage": "https://jajera.github.io/guides/",
+      "language": "Astro",
+      "topics": [],
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "has_pages": true,
+      "created_at": "2026-07-11T03:11:46Z",
+      "updated_at": "2026-07-11T04:52:12Z",
+      "owner": {
+        "login": "jajera",
+        "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
+        "html_url": "https://github.com/jajera"
+      },
+      "category": "web-apps",
+      "pagesUrl": "https://jajera.github.io/guides",
       "isUserRepo": true
     },
     {
@@ -2521,14 +2567,14 @@
     }
   ],
   "metadata": {
-    "totalCount": 109,
+    "totalCount": 111,
     "categories": {
-      "web-apps": 41,
+      "web-apps": 43,
       "terraform-modules": 55,
       "github-actions": 7,
       "devcontainer-features": 6
     },
-    "lastUpdated": "2026-07-11T01:25:18.527Z",
+    "lastUpdated": "2026-07-11T07:31:12.468Z",
     "sources": {
       "users": [
         "jajera"
