@@ -427,7 +427,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2024-03-16T02:06:32Z",
-      "updated_at": "2026-07-12T04:21:54Z",
+      "updated_at": "2026-07-12T10:22:02Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -473,7 +473,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2024-03-10T07:21:24Z",
-      "updated_at": "2026-07-12T04:27:02Z",
+      "updated_at": "2026-07-12T10:30:19Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -665,6 +665,29 @@
       },
       "category": "web-apps",
       "pagesUrl": "https://jajera.github.io/oceania-aws-vcd-1",
+      "isUserRepo": true
+    },
+    {
+      "id": 1298191159,
+      "name": "pr-readiness-coach-walkthrough",
+      "full_name": "jajera/pr-readiness-coach-walkthrough",
+      "description": "Walkthrough guide for deploying and using the PR Readiness Coach",
+      "html_url": "https://github.com/jajera/pr-readiness-coach-walkthrough",
+      "homepage": "https://jajera.github.io/pr-readiness-coach-walkthrough/",
+      "language": "MDX",
+      "topics": [],
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "has_pages": true,
+      "created_at": "2026-07-12T10:38:39Z",
+      "updated_at": "2026-07-12T12:09:37Z",
+      "owner": {
+        "login": "jajera",
+        "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
+        "html_url": "https://github.com/jajera"
+      },
+      "category": "web-apps",
+      "pagesUrl": "https://jajera.github.io/pr-readiness-coach-walkthrough",
       "isUserRepo": true
     },
     {
@@ -2567,14 +2590,14 @@
     }
   ],
   "metadata": {
-    "totalCount": 111,
+    "totalCount": 112,
     "categories": {
-      "web-apps": 43,
+      "web-apps": 44,
       "terraform-modules": 55,
       "github-actions": 7,
       "devcontainer-features": 6
     },
-    "lastUpdated": "2026-07-12T07:57:18.264Z",
+    "lastUpdated": "2026-07-12T12:52:21.677Z",
     "sources": {
       "users": [
         "jajera"
