@@ -461,6 +461,29 @@
       "isUserRepo": true
     },
     {
+      "id": 1305365078,
+      "name": "gcp-icons",
+      "full_name": "jajera/gcp-icons",
+      "description": "Browse and copy gcp service icons",
+      "html_url": "https://github.com/jajera/gcp-icons",
+      "homepage": "https://jajera.github.io/gcp-icons/",
+      "language": "HTML",
+      "topics": [],
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "has_pages": true,
+      "created_at": "2026-07-19T02:33:25Z",
+      "updated_at": "2026-07-19T03:31:28Z",
+      "owner": {
+        "login": "jajera",
+        "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
+        "html_url": "https://github.com/jajera"
+      },
+      "category": "web-apps",
+      "pagesUrl": "https://jajera.github.io/gcp-icons",
+      "isUserRepo": true
+    },
+    {
       "id": 772829486,
       "name": "geonet-http-volcano-demo",
       "full_name": "jajera/geonet-http-volcano-demo",
@@ -473,7 +496,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2024-03-16T02:06:32Z",
-      "updated_at": "2026-07-18T17:52:09Z",
+      "updated_at": "2026-07-19T04:18:25Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -496,7 +519,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2025-06-01T12:08:27Z",
-      "updated_at": "2026-07-18T05:35:05Z",
+      "updated_at": "2026-07-19T06:04:12Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -519,7 +542,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2024-03-10T07:21:24Z",
-      "updated_at": "2026-07-18T17:58:16Z",
+      "updated_at": "2026-07-19T04:23:00Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -2636,14 +2659,14 @@
     }
   ],
   "metadata": {
-    "totalCount": 114,
+    "totalCount": 115,
     "categories": {
-      "web-apps": 46,
+      "web-apps": 47,
       "terraform-modules": 55,
       "github-actions": 7,
       "devcontainer-features": 6
     },
-    "lastUpdated": "2026-07-19T01:25:14.076Z",
+    "lastUpdated": "2026-07-19T07:56:49.317Z",
     "sources": {
       "users": [
         "jajera"
