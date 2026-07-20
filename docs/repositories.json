@@ -1496,29 +1496,6 @@
       "isUserRepo": false
     },
     {
-      "id": 902307614,
-      "name": "terraform-github-team",
-      "full_name": "tfstack/terraform-github-team",
-      "description": "Terraform module to manage GitHub Team",
-      "html_url": "https://github.com/tfstack/terraform-github-team",
-      "homepage": "https://registry.terraform.io/modules/tfstack/team/github/latest",
-      "language": "HCL",
-      "topics": [],
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "has_pages": false,
-      "created_at": "2024-12-12T10:09:14Z",
-      "updated_at": "2025-07-07T12:04:33Z",
-      "owner": {
-        "login": "tfstack",
-        "avatar_url": "https://avatars.githubusercontent.com/u/181625549?v=4",
-        "html_url": "https://github.com/tfstack"
-      },
-      "category": "terraform-modules",
-      "pagesUrl": null,
-      "isUserRepo": false
-    },
-    {
       "id": 903069566,
       "name": "terraform-github-org",
       "full_name": "tfstack/terraform-github-org",
@@ -2659,14 +2636,14 @@
     }
   ],
   "metadata": {
-    "totalCount": 115,
+    "totalCount": 114,
     "categories": {
       "web-apps": 47,
-      "terraform-modules": 55,
+      "terraform-modules": 54,
       "github-actions": 7,
       "devcontainer-features": 6
     },
-    "lastUpdated": "2026-07-19T18:47:45.306Z",
+    "lastUpdated": "2026-07-20T01:33:03.703Z",
     "sources": {
       "users": [
         "jajera"
