@@ -496,7 +496,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2024-03-16T02:06:32Z",
-      "updated_at": "2026-07-19T17:53:56Z",
+      "updated_at": "2026-07-20T04:32:22Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -519,7 +519,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2025-06-01T12:08:27Z",
-      "updated_at": "2026-07-19T06:04:12Z",
+      "updated_at": "2026-07-20T06:24:55Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -542,7 +542,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2024-03-10T07:21:24Z",
-      "updated_at": "2026-07-19T17:59:17Z",
+      "updated_at": "2026-07-20T04:37:45Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -1486,6 +1486,29 @@
       "has_pages": false,
       "created_at": "2024-12-12T05:36:33Z",
       "updated_at": "2025-07-07T11:59:15Z",
+      "owner": {
+        "login": "tfstack",
+        "avatar_url": "https://avatars.githubusercontent.com/u/181625549?v=4",
+        "html_url": "https://github.com/tfstack"
+      },
+      "category": "terraform-modules",
+      "pagesUrl": null,
+      "isUserRepo": false
+    },
+    {
+      "id": 902307614,
+      "name": "terraform-github-team",
+      "full_name": "tfstack/terraform-github-team",
+      "description": "Terraform module to manage GitHub Team",
+      "html_url": "https://github.com/tfstack/terraform-github-team",
+      "homepage": "https://registry.terraform.io/modules/tfstack/team/github/latest",
+      "language": "HCL",
+      "topics": [],
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "has_pages": false,
+      "created_at": "2024-12-12T10:09:14Z",
+      "updated_at": "2025-07-07T12:04:33Z",
       "owner": {
         "login": "tfstack",
         "avatar_url": "https://avatars.githubusercontent.com/u/181625549?v=4",
@@ -2636,14 +2659,14 @@
     }
   ],
   "metadata": {
-    "totalCount": 114,
+    "totalCount": 115,
     "categories": {
       "web-apps": 47,
-      "terraform-modules": 54,
+      "terraform-modules": 55,
       "github-actions": 7,
       "devcontainer-features": 6
     },
-    "lastUpdated": "2026-07-20T01:33:03.703Z",
+    "lastUpdated": "2026-07-20T08:36:34.148Z",
     "sources": {
       "users": [
         "jajera"
