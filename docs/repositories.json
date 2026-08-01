@@ -496,7 +496,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2024-03-16T02:06:32Z",
-      "updated_at": "2026-08-01T04:17:40Z",
+      "updated_at": "2026-08-01T10:36:53Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -542,7 +542,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2024-03-10T07:21:24Z",
-      "updated_at": "2026-08-01T04:22:34Z",
+      "updated_at": "2026-08-01T10:42:29Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -642,6 +642,29 @@
       },
       "category": "web-apps",
       "pagesUrl": "https://jajera.github.io/image-to-svg-webapp",
+      "isUserRepo": true
+    },
+    {
+      "id": 1319255893,
+      "name": "kiro-eks-gitops-factory",
+      "full_name": "jajera/kiro-eks-gitops-factory",
+      "description": "A repeatable EKS and Argo CD app factory with thin Kiro prompts, hard guardrails, and no chat-side cluster apply",
+      "html_url": "https://github.com/jajera/kiro-eks-gitops-factory",
+      "homepage": null,
+      "language": null,
+      "topics": [],
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "has_pages": true,
+      "created_at": "2026-08-01T11:57:36Z",
+      "updated_at": "2026-08-01T11:57:51Z",
+      "owner": {
+        "login": "jajera",
+        "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
+        "html_url": "https://github.com/jajera"
+      },
+      "category": "web-apps",
+      "pagesUrl": "https://jajera.github.io/kiro-eks-gitops-factory",
       "isUserRepo": true
     },
     {
@@ -2659,14 +2682,14 @@
     }
   ],
   "metadata": {
-    "totalCount": 115,
+    "totalCount": 116,
     "categories": {
-      "web-apps": 47,
+      "web-apps": 48,
       "terraform-modules": 55,
       "github-actions": 7,
       "devcontainer-features": 6
     },
-    "lastUpdated": "2026-08-01T08:00:58.715Z",
+    "lastUpdated": "2026-08-01T12:52:49.272Z",
     "sources": {
       "users": [
         "jajera"
