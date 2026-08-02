@@ -47,6 +47,29 @@
       "isUserRepo": true
     },
     {
+      "id": 1319861431,
+      "name": "arch-icons",
+      "full_name": "jajera/arch-icons",
+      "description": "Browse and copy common architecture icons",
+      "html_url": "https://github.com/jajera/arch-icons",
+      "homepage": "https://jajera.github.io/arch-icons/",
+      "language": "HTML",
+      "topics": [],
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "has_pages": true,
+      "created_at": "2026-08-02T05:49:51Z",
+      "updated_at": "2026-08-02T05:56:46Z",
+      "owner": {
+        "login": "jajera",
+        "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
+        "html_url": "https://github.com/jajera"
+      },
+      "category": "web-apps",
+      "pagesUrl": "https://jajera.github.io/arch-icons",
+      "isUserRepo": true
+    },
+    {
       "id": 1000770221,
       "name": "aurora-nz-nowcast",
       "full_name": "jajera/aurora-nz-nowcast",
@@ -323,6 +346,29 @@
       "isUserRepo": true
     },
     {
+      "id": 1319796087,
+      "name": "azure-icons",
+      "full_name": "jajera/azure-icons",
+      "description": "Browse and copy gcp service icons",
+      "html_url": "https://github.com/jajera/azure-icons",
+      "homepage": "https://jajera.github.io/azure-icons/",
+      "language": "HTML",
+      "topics": [],
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "has_pages": true,
+      "created_at": "2026-08-02T03:49:00Z",
+      "updated_at": "2026-08-02T04:55:22Z",
+      "owner": {
+        "login": "jajera",
+        "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
+        "html_url": "https://github.com/jajera"
+      },
+      "category": "web-apps",
+      "pagesUrl": "https://jajera.github.io/azure-icons",
+      "isUserRepo": true
+    },
+    {
       "id": 1299257860,
       "name": "bind-to-route53-mirror-walkthrough",
       "full_name": "jajera/bind-to-route53-mirror-walkthrough",
@@ -343,6 +389,29 @@
       },
       "category": "web-apps",
       "pagesUrl": "https://jajera.github.io/bind-to-route53-mirror-walkthrough",
+      "isUserRepo": true
+    },
+    {
+      "id": 1319846255,
+      "name": "cncf-icons",
+      "full_name": "jajera/cncf-icons",
+      "description": "Browse and copy cncf service icons",
+      "html_url": "https://github.com/jajera/cncf-icons",
+      "homepage": "https://jajera.github.io/cncf-icons/",
+      "language": "HTML",
+      "topics": [],
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "has_pages": true,
+      "created_at": "2026-08-02T05:24:45Z",
+      "updated_at": "2026-08-02T05:38:23Z",
+      "owner": {
+        "login": "jajera",
+        "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
+        "html_url": "https://github.com/jajera"
+      },
+      "category": "web-apps",
+      "pagesUrl": "https://jajera.github.io/cncf-icons",
       "isUserRepo": true
     },
     {
@@ -473,7 +542,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2026-07-19T02:33:25Z",
-      "updated_at": "2026-07-25T03:26:06Z",
+      "updated_at": "2026-08-02T03:55:23Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -496,7 +565,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2024-03-16T02:06:32Z",
-      "updated_at": "2026-08-01T17:56:49Z",
+      "updated_at": "2026-08-02T04:20:22Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -519,7 +588,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2025-06-01T12:08:27Z",
-      "updated_at": "2026-08-01T06:12:02Z",
+      "updated_at": "2026-08-02T06:10:26Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -542,7 +611,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2024-03-10T07:21:24Z",
-      "updated_at": "2026-08-01T18:02:22Z",
+      "updated_at": "2026-08-02T04:24:34Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -2682,14 +2751,14 @@
     }
   ],
   "metadata": {
-    "totalCount": 116,
+    "totalCount": 119,
     "categories": {
-      "web-apps": 48,
+      "web-apps": 51,
       "terraform-modules": 55,
       "github-actions": 7,
       "devcontainer-features": 6
     },
-    "lastUpdated": "2026-08-02T01:30:03.598Z",
+    "lastUpdated": "2026-08-02T08:02:40.372Z",
     "sources": {
       "users": [
         "jajera"
