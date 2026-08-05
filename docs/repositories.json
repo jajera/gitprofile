@@ -565,7 +565,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2024-03-16T02:06:32Z",
-      "updated_at": "2026-08-04T18:24:29Z",
+      "updated_at": "2026-08-05T03:55:28Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -588,7 +588,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2025-06-01T12:08:27Z",
-      "updated_at": "2026-08-04T05:56:58Z",
+      "updated_at": "2026-08-05T05:53:41Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -611,7 +611,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2024-03-10T07:21:24Z",
-      "updated_at": "2026-08-04T18:31:05Z",
+      "updated_at": "2026-08-05T04:11:15Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -849,6 +849,29 @@
       },
       "category": "web-apps",
       "pagesUrl": "https://jajera.github.io/pr-readiness-coach-walkthrough",
+      "isUserRepo": true
+    },
+    {
+      "id": 1322808390,
+      "name": "privatelink-conduit",
+      "full_name": "jajera/privatelink-conduit",
+      "description": "PrivateLink path between producer and consumer VPCs",
+      "html_url": "https://github.com/jajera/privatelink-conduit",
+      "homepage": "https://jajera.github.io/privatelink-conduit/",
+      "language": "HCL",
+      "topics": [],
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "has_pages": true,
+      "created_at": "2026-08-04T10:20:12Z",
+      "updated_at": "2026-08-05T07:38:17Z",
+      "owner": {
+        "login": "jajera",
+        "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
+        "html_url": "https://github.com/jajera"
+      },
+      "category": "web-apps",
+      "pagesUrl": "https://jajera.github.io/privatelink-conduit",
       "isUserRepo": true
     },
     {
@@ -2751,14 +2774,14 @@
     }
   ],
   "metadata": {
-    "totalCount": 119,
+    "totalCount": 120,
     "categories": {
-      "web-apps": 51,
+      "web-apps": 52,
       "terraform-modules": 55,
       "github-actions": 7,
       "devcontainer-features": 6
     },
-    "lastUpdated": "2026-08-05T01:24:11.071Z",
+    "lastUpdated": "2026-08-05T08:14:12.744Z",
     "sources": {
       "users": [
         "jajera"
