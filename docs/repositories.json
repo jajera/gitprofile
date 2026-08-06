@@ -565,7 +565,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2024-03-16T02:06:32Z",
-      "updated_at": "2026-08-05T18:16:57Z",
+      "updated_at": "2026-08-06T04:07:22Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -588,7 +588,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2025-06-01T12:08:27Z",
-      "updated_at": "2026-08-05T05:53:41Z",
+      "updated_at": "2026-08-06T05:57:51Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -611,7 +611,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2024-03-10T07:21:24Z",
-      "updated_at": "2026-08-05T18:24:34Z",
+      "updated_at": "2026-08-06T04:14:16Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -1148,6 +1148,29 @@
       },
       "category": "web-apps",
       "pagesUrl": "https://jajera.github.io/text-to-speech-webapp",
+      "isUserRepo": true
+    },
+    {
+      "id": 1324049232,
+      "name": "tgw-policy-based-routing-walkthrough",
+      "full_name": "jajera/tgw-policy-based-routing-walkthrough",
+      "description": "AWS Transit Gateway Policy-Based Routing walkthrough",
+      "html_url": "https://github.com/jajera/tgw-policy-based-routing-walkthrough",
+      "homepage": "https://jajera.github.io/tgw-policy-based-routing-walkthrough/",
+      "language": "Python",
+      "topics": [],
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "has_pages": true,
+      "created_at": "2026-08-05T12:58:15Z",
+      "updated_at": "2026-08-06T07:58:05Z",
+      "owner": {
+        "login": "jajera",
+        "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
+        "html_url": "https://github.com/jajera"
+      },
+      "category": "web-apps",
+      "pagesUrl": "https://jajera.github.io/tgw-policy-based-routing-walkthrough",
       "isUserRepo": true
     },
     {
@@ -2774,14 +2797,14 @@
     }
   ],
   "metadata": {
-    "totalCount": 120,
+    "totalCount": 121,
     "categories": {
-      "web-apps": 52,
+      "web-apps": 53,
       "terraform-modules": 55,
       "github-actions": 7,
       "devcontainer-features": 6
     },
-    "lastUpdated": "2026-08-06T01:21:32.711Z",
+    "lastUpdated": "2026-08-06T08:13:18.789Z",
     "sources": {
       "users": [
         "jajera"
