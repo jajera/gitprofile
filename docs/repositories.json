@@ -645,6 +645,29 @@
       "isUserRepo": true
     },
     {
+      "id": 1330160731,
+      "name": "geonet-volcano-timelapse",
+      "full_name": "jajera/geonet-volcano-timelapse",
+      "description": "Play GeoNet volcano webcam stills as a browser timelapse from the public S3 open data bucket",
+      "html_url": "https://github.com/jajera/geonet-volcano-timelapse",
+      "homepage": "https://jajera.github.io/geonet-volcano-timelapse/",
+      "language": null,
+      "topics": [],
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "has_pages": true,
+      "created_at": "2026-08-10T19:03:43Z",
+      "updated_at": "2026-08-10T22:09:00Z",
+      "owner": {
+        "login": "jajera",
+        "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
+        "html_url": "https://github.com/jajera"
+      },
+      "category": "web-apps",
+      "pagesUrl": "https://jajera.github.io/geonet-volcano-timelapse",
+      "isUserRepo": true
+    },
+    {
       "id": 1297081898,
       "name": "guides",
       "full_name": "jajera/guides",
@@ -2820,14 +2843,14 @@
     }
   ],
   "metadata": {
-    "totalCount": 122,
+    "totalCount": 123,
     "categories": {
-      "web-apps": 54,
+      "web-apps": 55,
       "terraform-modules": 55,
       "github-actions": 7,
       "devcontainer-features": 6
     },
-    "lastUpdated": "2026-08-10T18:41:18.220Z",
+    "lastUpdated": "2026-08-11T00:49:42.775Z",
     "sources": {
       "users": [
         "jajera"
