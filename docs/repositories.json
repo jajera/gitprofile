@@ -1151,6 +1151,29 @@
       "isUserRepo": true
     },
     {
+      "id": 1334982620,
+      "name": "seiscomp-lab",
+      "full_name": "jajera/seiscomp-lab",
+      "description": "Single host SeisComP learning lab on AWS Ubuntu",
+      "html_url": "https://github.com/jajera/seiscomp-lab",
+      "homepage": "https://jajera.github.io/seiscomp-lab/",
+      "language": "Shell",
+      "topics": [],
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "has_pages": true,
+      "created_at": "2026-08-15T10:09:45Z",
+      "updated_at": "2026-08-15T11:06:02Z",
+      "owner": {
+        "login": "jajera",
+        "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
+        "html_url": "https://github.com/jajera"
+      },
+      "category": "web-apps",
+      "pagesUrl": "https://jajera.github.io/seiscomp-lab",
+      "isUserRepo": true
+    },
+    {
       "id": 1102165136,
       "name": "terraform-aws-content-delivery-stack",
       "full_name": "jajera/terraform-aws-content-delivery-stack",
@@ -1370,7 +1393,7 @@
       "forks_count": 0,
       "has_pages": false,
       "created_at": "2025-04-23T00:47:31Z",
-      "updated_at": "2026-08-08T07:13:17Z",
+      "updated_at": "2026-08-15T07:16:03Z",
       "owner": {
         "login": "actionsforge",
         "avatar_url": "https://avatars.githubusercontent.com/u/193304877?v=4",
@@ -2912,14 +2935,14 @@
     }
   ],
   "metadata": {
-    "totalCount": 126,
+    "totalCount": 127,
     "categories": {
-      "web-apps": 57,
+      "web-apps": 58,
       "terraform-modules": 56,
       "github-actions": 7,
       "devcontainer-features": 6
     },
-    "lastUpdated": "2026-08-15T06:18:56.751Z",
+    "lastUpdated": "2026-08-15T12:15:12.887Z",
     "sources": {
       "users": [
         "jajera"
