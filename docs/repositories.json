@@ -726,7 +726,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2026-07-11T03:11:46Z",
-      "updated_at": "2026-08-15T05:33:55Z",
+      "updated_at": "2026-08-15T22:25:06Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -1151,6 +1151,29 @@
       "isUserRepo": true
     },
     {
+      "id": 1335448793,
+      "name": "seiscomp-containers-lab",
+      "full_name": "jajera/seiscomp-containers-lab",
+      "description": "Unofficial LEARN SeisComP lab as one Docker Compose service per process using gsm",
+      "html_url": "https://github.com/jajera/seiscomp-containers-lab",
+      "homepage": "https://jajera.github.io/seiscomp-containers-lab/",
+      "language": "Shell",
+      "topics": [],
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "has_pages": true,
+      "created_at": "2026-08-15T21:58:35Z",
+      "updated_at": "2026-08-15T22:38:01Z",
+      "owner": {
+        "login": "jajera",
+        "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
+        "html_url": "https://github.com/jajera"
+      },
+      "category": "web-apps",
+      "pagesUrl": "https://jajera.github.io/seiscomp-containers-lab",
+      "isUserRepo": true
+    },
+    {
       "id": 1334982620,
       "name": "seiscomp-lab",
       "full_name": "jajera/seiscomp-lab",
@@ -1163,7 +1186,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2026-08-15T10:09:45Z",
-      "updated_at": "2026-08-15T11:06:02Z",
+      "updated_at": "2026-08-15T22:22:44Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -2935,14 +2958,14 @@
     }
   ],
   "metadata": {
-    "totalCount": 127,
+    "totalCount": 128,
     "categories": {
-      "web-apps": 58,
+      "web-apps": 59,
       "terraform-modules": 56,
       "github-actions": 7,
       "devcontainer-features": 6
     },
-    "lastUpdated": "2026-08-15T18:12:40.691Z",
+    "lastUpdated": "2026-08-16T00:35:22.907Z",
     "sources": {
       "users": [
         "jajera"
