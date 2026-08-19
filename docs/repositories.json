@@ -507,6 +507,29 @@
       "isUserRepo": true
     },
     {
+      "id": 1339456851,
+      "name": "eks-control-plane-config",
+      "full_name": "jajera/eks-control-plane-config",
+      "description": "Amazon EKS control plane configuration parameters walkthrough",
+      "html_url": "https://github.com/jajera/eks-control-plane-config",
+      "homepage": "https://jajera.github.io/eks-control-plane-config/",
+      "language": null,
+      "topics": [],
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "has_pages": true,
+      "created_at": "2026-08-19T10:51:59Z",
+      "updated_at": "2026-08-19T11:06:47Z",
+      "owner": {
+        "login": "jajera",
+        "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
+        "html_url": "https://github.com/jajera"
+      },
+      "category": "web-apps",
+      "pagesUrl": "https://jajera.github.io/eks-control-plane-config",
+      "isUserRepo": true
+    },
+    {
       "id": 994047225,
       "name": "eliza",
       "full_name": "jajera/eliza",
@@ -2981,14 +3004,14 @@
     }
   ],
   "metadata": {
-    "totalCount": 129,
+    "totalCount": 130,
     "categories": {
-      "web-apps": 60,
+      "web-apps": 61,
       "terraform-modules": 56,
       "github-actions": 7,
       "devcontainer-features": 6
     },
-    "lastUpdated": "2026-08-19T06:24:11.812Z",
+    "lastUpdated": "2026-08-19T12:21:32.222Z",
     "sources": {
       "users": [
         "jajera"
