@@ -392,6 +392,29 @@
       "isUserRepo": true
     },
     {
+      "id": 1343342767,
+      "name": "buildpacks-eks-walkthrough",
+      "full_name": "jajera/buildpacks-eks-walkthrough",
+      "description": "Buildpacks on EKS with kpack CodeCommit ECR and managed Argo CD",
+      "html_url": "https://github.com/jajera/buildpacks-eks-walkthrough",
+      "homepage": "https://jajera.github.io/buildpacks-eks-walkthrough/",
+      "language": "MDX",
+      "topics": [],
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "has_pages": true,
+      "created_at": "2026-08-23T03:36:56Z",
+      "updated_at": "2026-08-23T11:12:38Z",
+      "owner": {
+        "login": "jajera",
+        "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
+        "html_url": "https://github.com/jajera"
+      },
+      "category": "web-apps",
+      "pagesUrl": "https://jajera.github.io/buildpacks-eks-walkthrough",
+      "isUserRepo": true
+    },
+    {
       "id": 1319846255,
       "name": "cncf-icons",
       "full_name": "jajera/cncf-icons",
@@ -749,7 +772,7 @@
       "forks_count": 0,
       "has_pages": true,
       "created_at": "2026-07-11T03:11:46Z",
-      "updated_at": "2026-08-21T01:40:11Z",
+      "updated_at": "2026-08-23T11:29:02Z",
       "owner": {
         "login": "jajera",
         "avatar_url": "https://avatars.githubusercontent.com/u/37360952?v=4",
@@ -3027,14 +3050,14 @@
     }
   ],
   "metadata": {
-    "totalCount": 131,
+    "totalCount": 132,
     "categories": {
-      "web-apps": 62,
+      "web-apps": 63,
       "terraform-modules": 56,
       "github-actions": 7,
       "devcontainer-features": 6
     },
-    "lastUpdated": "2026-08-23T06:21:39.369Z",
+    "lastUpdated": "2026-08-23T12:16:53.611Z",
     "sources": {
       "users": [
         "jajera"
