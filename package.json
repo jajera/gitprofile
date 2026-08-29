@@ -1,44 +1,20 @@
 {
   "name": "gitprofile",
-  "version": "1.0.0",
-  "description": "A dynamic GitHub Pages Index that discovers and categorizes GitHub repositories with Pages deployments across multiple users and organizations",
-  "main": "docs/index.html",
+  "type": "module",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Personal CV page for John Ajera, rendered from the jajera/jajera profile README",
   "scripts": {
-    "start": "cd docs && npx serve .",
-    "serve": "cd docs && npx serve .",
-    "dev": "cd docs && npx serve . --single",
-    "update": "node scripts/update-repositories.js",
-    "update:dev": "GITHUB_TOKEN=${GITHUB_TOKEN} node scripts/update-repositories.js",
-    "test": "echo \"No tests specified\" && exit 0",
-    "build": "echo \"No build process required\" && exit 0"
+    "dev": "astro dev",
+    "fetch-profile": "node scripts/fetch-profile.mjs",
+    "prebuild": "node scripts/fetch-profile.mjs",
+    "build": "astro build",
+    "preview": "astro preview"
   },
-  "keywords": [
-    "github-pages",
-    "index",
-    "repository",
-    "discovery",
-    "terraform",
-    "web-app",
-    "documentation",
-    "github-api",
-    "static-site"
-  ],
-  "author": "jajera",
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/jajera/gitprofile.git"
-  },
-  "bugs": {
-    "url": "https://github.com/jajera/gitprofile/issues"
-  },
-  "homepage": "https://jajera.github.io/gitprofile/",
   "dependencies": {
-    "node-fetch": "^2.7.0",
-    "js-yaml": "^4.1.0"
+    "astro": "^5.10.0"
   },
-  "devDependencies": {},
   "engines": {
-    "node": ">=14.0.0"
+    "node": ">=22"
   }
 }

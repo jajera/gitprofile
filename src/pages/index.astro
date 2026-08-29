@@ -1,0 +1,213 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { loadProfile } from '../lib/profile';
+import site from '../../site.json';
+
+const profile = loadProfile();
+const focusItems = profile.focus.slice(0, 4).map((item) => item.split(/\s+[-–—]\s+/)[0]);
+const eyebrow = site.eyebrow || `${profile.role} · ${profile.location}`;
+---
+
+<BaseLayout>
+  <section class="hero" aria-labelledby="hero-heading">
+    <div class="hero-copy">
+      <p class="eyebrow">{eyebrow}</p>
+      <h1 id="hero-heading">{profile.name}</h1>
+      <p class="lede">{profile.welcome}</p>
+
+      <div class="hero-actions">
+        <a class="btn btn-primary" href={site.links.projects} rel="noopener noreferrer">Projects</a>
+        <a class="btn btn-ghost" href={site.links.guides} rel="noopener noreferrer">Guides</a>
+        <a class="btn btn-ghost" href={site.links.home} rel="noopener noreferrer">johna.kiwi</a>
+      </div>
+
+      <ul class="social-row" aria-label="Social profiles">
+        <li><a href={site.links.github} rel="noopener noreferrer">GitHub</a></li>
+        <li><a href={site.links.linkedin} rel="noopener noreferrer">LinkedIn</a></li>
+        <li><a href={site.links.devto} rel="noopener noreferrer">DEV.to</a></li>
+        <li><a href={site.links.youtube} rel="noopener noreferrer">YouTube</a></li>
+        <li><a href={site.links.builders} rel="noopener noreferrer">Builder Center</a></li>
+      </ul>
+    </div>
+
+    {
+      focusItems.length > 0 && (
+        <aside class="focus-panel" aria-labelledby="focus-heading">
+          <h2 id="focus-heading" class="focus-label">
+            What I work on
+          </h2>
+          <ol class="focus-list">
+            {focusItems.map((item, index) => (
+              <li>
+                <span class="focus-num" aria-hidden="true">
+                  {String(index + 1).padStart(2, '0')}
+                </span>
+                <span>{item}</span>
+              </li>
+            ))}
+          </ol>
+          {profile.funFact && <p class="focus-note">{profile.funFact}</p>}
+        </aside>
+      )
+    }
+  </section>
+
+  {
+    profile.about.length > 0 && (
+      <section class="cv-section" aria-labelledby="about-heading">
+        <h2 id="about-heading">About</h2>
+        {profile.about.map((p) => (
+          <p>{p}</p>
+        ))}
+      </section>
+    )
+  }
+
+  {
+    profile.focus.length > 0 && (
+      <section class="cv-section" aria-labelledby="focus-full-heading">
+        <h2 id="focus-full-heading">Current focus</h2>
+        <ul class="plain-list">
+          {profile.focus.map((item) => (
+            <li>{item}</li>
+          ))}
+        </ul>
+      </section>
+    )
+  }
+
+  {
+    profile.skills.length > 0 && (
+      <section class="cv-section" aria-labelledby="skills-heading">
+        <h2 id="skills-heading">Technical skills</h2>
+        <dl class="skills-list">
+          {profile.skills.map((skill) => (
+            <>
+              <dt>{skill.label}</dt>
+              <dd>{skill.value}</dd>
+            </>
+          ))}
+        </dl>
+        {profile.askAbout && (
+          <p class="meta-line">
+            <strong>Ask me about</strong> {profile.askAbout}
+          </p>
+        )}
+        {profile.continuousLearning && (
+          <p class="meta-line">
+            <strong>Learning</strong> {profile.continuousLearning}
+          </p>
+        )}
+      </section>
+    )
+  }
+
+  <section class="cv-section" aria-labelledby="builder-heading">
+    <h2 id="builder-heading">AWS Community Builder</h2>
+    {
+      profile.communityBuilder.imageUrl && (
+        <a
+          class="builder-image"
+          href={profile.communityBuilder.href}
+          rel="noopener noreferrer"
+        >
+          <img
+            src={profile.communityBuilder.imageUrl}
+            alt="AWS Community Builder"
+            width="700"
+            height="200"
+            loading="lazy"
+          />
+        </a>
+      )
+    }
+    {
+      profile.communityBuilder.focus && (
+        <p class="meta-line">
+          <strong>Focus area</strong> {profile.communityBuilder.focus}
+        </p>
+      )
+    }
+    {profile.communityBuilder.blurb && <p>{profile.communityBuilder.blurb}</p>}
+  </section>
+
+  {
+    profile.volunteering.length > 0 && (
+      <section class="cv-section" aria-labelledby="community-heading">
+        <h2 id="community-heading">Community volunteering</h2>
+        {profile.volunteering.map((block) => (
+          <div class="vol-block">
+            <h3>{block.title}</h3>
+            {block.subsections.map((sub) => (
+              <div class="vol-sub">
+                {sub.title && <h4>{sub.title}</h4>}
+                <ul class="plain-list">
+                  {sub.items.map((item) => (
+                    <li set:html={item} />
+                  ))}
+                </ul>
+              </div>
+            ))}
+          </div>
+        ))}
+      </section>
+    )
+  }
+
+  {
+    profile.hackathon.length > 0 && (
+      <section class="cv-section" aria-labelledby="hackathon-heading">
+        <h2 id="hackathon-heading">Hackathon</h2>
+        {profile.hackathon.map((item) => (
+          <article class="hackathon-item">
+            <h3 set:html={item.title} />
+            {item.body.map((line) => (
+              <p set:html={line} />
+            ))}
+          </article>
+        ))}
+      </section>
+    )
+  }
+
+  {
+    profile.orgs.length > 0 && (
+      <section class="cv-section" aria-labelledby="orgs-heading">
+        <h2 id="orgs-heading">GitHub organizations</h2>
+        {profile.orgs.map((group) => (
+          <div class="org-group">
+            <h3>{group.title}</h3>
+            <ul class="org-list">
+              {group.items.map((org) => (
+                <li>
+                  <a href={org.url} rel="noopener noreferrer">
+                    {org.name}
+                  </a>
+                  {org.description && <span> — {org.description}</span>}
+                </li>
+              ))}
+            </ul>
+          </div>
+        ))}
+      </section>
+    )
+  }
+
+  <section class="cv-section cv-section--cta" aria-labelledby="elsewhere-heading">
+    <h2 id="elsewhere-heading">Elsewhere</h2>
+    <p class="lede lede--tight">
+      Project index, guides, and the curated home live on their own sites.
+    </p>
+    <div class="hero-actions">
+      <a class="btn btn-primary" href={site.links.projects} rel="noopener noreferrer">
+        Browse projects
+      </a>
+      <a class="btn btn-ghost" href={site.links.guides} rel="noopener noreferrer">
+        Guides
+      </a>
+      <a class="btn btn-ghost" href={site.links.home} rel="noopener noreferrer">
+        johna.kiwi
+      </a>
+    </div>
+  </section>
+</BaseLayout>

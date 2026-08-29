@@ -1,0 +1,25 @@
+{
+  "title": "John Ajera",
+  "description": "Platform engineer in Wellington. CV and profile page for John Ajera.",
+  "author": "John Ajera",
+  "brand": "gitprofile.johna.kiwi",
+  "eyebrow": "Platform engineer · AWS Community Builder · Wellington",
+  "gaMeasurementId": "G-LPQYZLHTY6",
+  "links": {
+    "home": "https://johna.kiwi/",
+    "projects": "https://pages.johna.kiwi/",
+    "guides": "https://guides.johna.kiwi/",
+    "github": "https://github.com/jajera",
+    "linkedin": "https://www.linkedin.com/in/john-ajera",
+    "devto": "https://dev.to/jajera",
+    "youtube": "https://www.youtube.com/@JohnAjera",
+    "builders": "https://builder.aws.com/community/@jgnscri",
+    "repo": "https://github.com/jajera/gitprofile"
+  },
+  "profileReadme": {
+    "owner": "jajera",
+    "repo": "jajera",
+    "path": "README.md",
+    "ref": "main"
+  }
+}
