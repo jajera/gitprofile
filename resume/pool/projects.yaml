@@ -1,0 +1,27 @@
+# Side projects, hackathons, and personal lab work (not employer roles)
+projects:
+  - id: aws-lambda-hackathon-2025
+    name: AWS Lambda Hackathon 2025
+    kind: hackathon
+    role: Participant
+    year: 2025
+    url: https://jajera.github.io/hackathon-2025-iam-policy-guard
+    summary: >
+      Built IAM Policy Guard, a serverless tool that analyzes IAM policies to flag
+      risky permissions and promote least-privilege.
+    tags: [aws, lambda, iam, serverless, python, security]
+    extras:
+      - Showcased the entry on The Zacs' Show Talking AWS podcast
+        (hosted by AWS Heroes Arshad Zackeriya and Jones Zachariah Noel N).
+
+  - id: personal-control-tower-lza
+    name: Personal AWS multi-account landing zone
+    kind: personal-lab
+    role: Owner
+    summary: >
+      Designed and operate a personal AWS multi-account environment using AWS
+      Control Tower and Landing Zone Accelerator (LZA), including account
+      structure and governance patterns used for learning and experimentation.
+    tags: [aws, control-tower, lza, landing-zone, multi-account, governance, security]
+    notes:
+      - Personal AWS account work, not an employer engagement.

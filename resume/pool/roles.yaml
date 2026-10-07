@@ -1,0 +1,127 @@
+roles:
+- id: geonet-platform
+  title: Platform Engineer
+  organization: Earth Sciences New Zealand (GeoNet)
+  organization_aliases:
+  - Earth Sciences NZ
+  - GNS Science
+  - GeoNet
+  location: Wellington, New Zealand
+  start: 2023-07
+  end: present
+  summary: Own infrastructure, performance, and security for GeoNet platforms that deliver critical earthquake
+    and tsunami data to emergency management, the public, and scientists. Platforms run on AWS and on-premises,
+    with Amazon ECS, Amazon EKS, Amazon RDS, and Linux VMs. Work is Terraform, Puppet, Packer, GitHub
+    Actions, Datadog, Docker/Podman, and application-facing platform support.
+  summary_alternates:
+  - Owned and delivered GeoNet platforms across on-premises and AWS, including Amazon EKS and Amazon RDS,
+    ensuring secure, scalable, and highly available delivery of critical data to emergency management,
+    public channels, and the scientific community; managed infrastructure as code using Terraform, Puppet,
+    and Packer; built and maintained CI/CD pipelines with GitHub Actions; and drove containerization and
+    workload modernization using Podman across virtual machines, EC2, Amazon ECS, and Kubernetes workloads
+    on EKS.
+  - Responsible for GeoNet platforms, security, and remote networks, leveraging Free and Open Source Software
+    to ensure GeoNet's timely delivery of critical information to emergency management, public channels,
+    and the scientific community worldwide. Managed all infrastructure as code using Terraform, Puppet,
+    and Packer. Significant role in GitHub Actions CI/CD and containerization — Podman on VMs and EC2,
+    plus services on ECS.
+- id: ncs-senior-devops
+  title: Senior DevOps Engineer
+  organization: NCS Pte Ltd (GovTech Whole-of-Government)
+  organization_aliases:
+  - NCS PTE LTD
+  - NCS
+  - GovTech
+  location: Singapore
+  start: 2021-10
+  end: 2023-05
+  summary: Platform and automation support for Singapore Whole-of-Government core infrastructure. Turned
+    product-owner problems into automated solutions; investigated production issues with frontend and
+    backend teams; raised security and health-check coverage. Developed Azure cloud use cases using Terraform.
+- id: uob-cloud-automation
+  title: Cloud Automation Engineer
+  organization: United Overseas Bank Limited
+  organization_aliases:
+  - UOB
+  location: Singapore
+  start: 2020-10
+  end: 2021-10
+  summary: Automated and orchestrated server security compliance for Windows, RedHat, Solaris, AIX and
+    HP-UX using Chef. Analysed compliance data and recommended remediations. Assessed existing processes
+    and delivered lasting automation.
+- id: ncs-automation
+  title: Automation Engineer
+  organization: NCS Pte Ltd
+  organization_aliases:
+  - NCS PTE LTD
+  - NCS
+  location: Singapore
+  start: 2018-01
+  end: 2020-09
+  summary: Built, designed and maintained platform automation infrastructure. Assisted operations with
+    configuration baselines and security compliance. Delivered automation for identified process improvements.
+- id: ncs-senior-systems
+  title: Senior Systems Consultant
+  organization: NCS Pte Ltd (GovTech)
+  organization_aliases:
+  - Government Technology Agency of Singapore (GovTech)
+  - Infocomm Development Authority of Singapore (iDA)
+  - NCS
+  location: Singapore
+  start: 2014-09
+  end: 2017-12
+  summary: Senior escalation and architecture for SCCM managing 100,000+ workstations (Win 7, 8.1, 10)
+    and servers for GovTech. Feasibility assessment, architectural guidance to stakeholders, and project
+    delivery with little margin for error.
+  managed_systems:
+  - System Center Configuration Manager 2012 R2
+  - System Center Configuration Manager (Current Branch 1702)
+- id: sony-senior-it
+  title: Senior IT Engineer
+  organization: Sony Electronics Singapore Pte Ltd
+  organization_aliases:
+  - Sony
+  location: Singapore
+  start: 2012-11
+  end: 2014-08
+  summary: Planning, provisioning, management and point of escalation for Asia, Australia and South Africa
+    local IT support; regional point of contact.
+  managed_systems:
+  - Active Directory (AD) & DNS
+  - DHCP
+  - MS Exchange
+  - Blackberry Enterprise Server (BES)
+  - MS Office Communicator Server (OCS)
+  - Certificate Authority (CA)
+  - Rights Management Services (RMS)
+  - Key Management Services (KMS)
+  - Identity Lifecycle Manager (ILM)
+  - Forefront Identity Manager (FIM)
+  - SCCM
+  - SCOM
+- id: sony-lan-admin
+  title: LAN Administrator
+  organization: Sony Electronics Singapore Pte Ltd
+  organization_aliases:
+  - Sony
+  location: Singapore
+  start: 2012-04
+  end: 2012-11
+  summary: Provision, manage and troubleshoot LAN servers; Active Directory and Group Policy; backup/restore;
+    virus, patch and vulnerability remediation; LAN projects; escalation for Singapore desktop support.
+  managed_systems:
+  - AD
+  - DHCP
+  - IAS
+  - File & Printer Server
+  - McAfee
+- id: sony-desktop-lead
+  title: Desktop Support Team Lead
+  organization: Sony Electronics Singapore Pte Ltd
+  organization_aliases:
+  - Sony
+  location: Singapore
+  start: 2010-01
+  end: 2012-03
+  summary: Managed a team of desktop engineers supporting Singapore users across multiple locations; shared
+    desktop support practices with Asia Pacific local IT.

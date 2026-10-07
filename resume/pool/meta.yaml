@@ -1,0 +1,17 @@
+purpose: Standalone career pool for JD-matched resume generation.
+constraints:
+  market: NZ-focused applications
+  pii: No phone, email, or street address
+  invention: Do not invent experience; rewording from pool text is allowed at generate time
+  pages: Page count decided per JD at generate time
+counts:
+  roles: 8
+  bullets: 52
+  projects: 2
+  skill_groups: 11
+  certs: 33
+  training: 15
+  community: 3
+  education: 3
+  summaries: 6
+  cover_claims: 2

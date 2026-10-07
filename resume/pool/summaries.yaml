@@ -1,0 +1,32 @@
+summaries:
+- id: platform-current
+  text: Platform engineer with 16+ years in infrastructure, automation, and operations, currently owning
+    GeoNet platforms at Earth Sciences New Zealand. Designs and operates AWS environments for always-on
+    web and data services — Amazon ECS, Amazon RDS PostgreSQL, EKS, and EC2 — using Terraform, GitHub
+    Actions, Docker, and Datadog. Improves reliability, security, and performance in small, reversible
+    steps; partners with application and product teams from design through production. Strong on Linux
+    and Git-based CI/CD; used to platforms where downtime is not an option.
+- id: career-broad
+  text: More than 16 years of professional IT experience across service delivery, project management,
+    operational management, and automation in private and public sectors. Communicates cross-functionally
+    at all levels; works well in multi-racial environments; creative problem solver who transforms ideas
+    into action with systems-oriented thinking.
+- id: platform-cloud-azure
+  text: Experienced and certified Platform Engineer with over 14 years in IT and 3+ years in cloud and
+    platform automation. Designs, develops, and supports complex distributed systems in production. Skilled
+    in Infrastructure-as-Code, CI/CD, container orchestration, and cloud-native development on AWS and
+    Azure. Strong in troubleshooting, automation, and mentoring.
+- id: cloud-windows-focus
+  text: Cloud Platform Engineer with over 14 years in IT and 3+ years delivering cloud and infrastructure
+    solutions. Skilled in AWS and Azure, with a strong focus on automation, infrastructure-as-code, and
+    Windows-based platform operations. Experience with Azure use case development, Terraform automation,
+    and CI/CD workflows.
+- id: platform-gitops
+  text: Platform Engineer with 14+ years in IT across cloud infrastructure, DevOps automation, and secure
+    platform operations. Track record delivering reliable, compliant solutions using AWS, Terraform, GitOps,
+    and containerized workloads. Cross-functional collaborator focused on developer productivity and system
+    resiliency.
+- id: devops-automation
+  text: Senior DevOps engineer focused on delivering automation solutions that meet business needs. Adaptable
+    team player with strong communication skills; interested in roles that deepen skills and involve new
+    technologies and challenges.

@@ -1,0 +1,123 @@
+groups:
+- id: aws
+  label: AWS
+  items:
+  - ECS
+  - RDS (PostgreSQL)
+  - EKS
+  - EC2
+  - VPC
+  - IAM
+  - WAF
+  - S3
+  - CloudWatch
+  - KMS
+  - Transit Gateway
+  - Lambda
+  - Control Tower
+  - Landing Zone Accelerator (LZA)
+- id: azure
+  label: Azure
+  items:
+  - Azure use case development
+  - RBAC
+  - Terraform landing-zone style use cases
+- id: platform-iac
+  label: Platform & IaC
+  items:
+  - Terraform
+  - Puppet
+  - Packer
+  - Ansible
+  - Chef
+  - Chef Automate
+  - Chef InSpec
+  - Docker
+  - Podman
+  - Kubernetes
+  - GitOps
+  - Argo CD
+  - Kustomize
+- id: cicd-git
+  label: CI/CD & Git
+  items:
+  - GitHub
+  - GitHub Actions
+  - GitLab CI
+  - Jenkins
+  - Bitbucket
+  - Artifactory
+  - VMware Tanzu
+  - Code Stream
+  - Atlassian Suite
+- id: data-observability
+  label: Data & observability
+  items:
+  - PostgreSQL
+  - RDS upgrades
+  - Datadog
+  - Grafana
+  - CloudWatch
+  - health checks
+  - incident RCA
+  - MariaDB
+- id: languages-os
+  label: Languages & OS
+  items:
+  - Linux (RHEL, CentOS)
+  - Windows Server
+  - Bash
+  - Shell
+  - Python
+  - Go
+  - Ruby
+  - PowerShell
+  - SQL
+  - Git
+  - Visual C#
+  - VB.Net
+  - VB Script
+  - Batch
+- id: security-identity
+  label: Security & identity
+  items:
+  - Active Directory
+  - IAM
+  - KMS
+  - CyberArk
+  - Vault
+  - RBAC
+  - AlgoSec
+  - Palo Alto
+  - Cisco
+  - WAF
+- id: ops-automation
+  label: IT operations & automation
+  items:
+  - SCCM
+  - ServiceNow
+  - VMware
+  - MDT
+  - McAfee
+  - SCOM
+- id: unix-legacy
+  label: Unix / legacy platforms
+  items:
+  - Solaris
+  - AIX
+  - HP-UX
+- id: ways-of-working
+  label: Ways of working
+  items:
+  - Agile delivery
+  - cross-team collaboration
+  - knowledge sharing
+  - security and reliability first
+  - mentoring
+- id: collab-tools
+  label: Collaboration tools
+  items:
+  - Git
+  - Jira
+  - Confluence
+  - ServiceNow

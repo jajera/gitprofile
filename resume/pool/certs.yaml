@@ -1,0 +1,112 @@
+certs:
+- name: AWS Certified Solutions Architect – Associate
+  issuer: AWS
+  date: 2026-01
+- name: AWS Certified SysOps Administrator – Associate
+  issuer: AWS
+  date: 2024-12
+- name: AWS Certified Cloud Practitioner
+  issuer: AWS
+  date: 2022-12
+- name: AWS Educate Machine Learning Foundations
+  issuer: AWS
+  date: 2025-07
+- name: 'HashiCorp Certified: Terraform Associate'
+  issuer: HashiCorp
+  date: 2020-07
+- name: 'HashiCorp Certified: Vault Associate (002)'
+  issuer: HashiCorp
+  date: 2022-08
+- name: GitLab Certified CI/CD Associate
+  issuer: GitLab
+  date: 2023-02
+- name: GitLab Certified Git Associate
+  issuer: GitLab
+  date: 2023-03
+- name: GitLab Certified Project Management Associate
+  issuer: GitLab
+  date: 2023-03
+- name: Red Hat Delivery Specialist – Automation
+  issuer: Red Hat
+  date: 2022-04
+- name: Red Hat Delivery Specialist – Automation II
+  issuer: Red Hat
+  date: 2022-04
+- name: 'Microsoft Certified: Azure Administrator Associate'
+  issuer: Microsoft
+  date: 2022-03
+- name: 'Microsoft Certified: Azure Developer Associate'
+  issuer: Microsoft
+  date: 2021-12
+- name: 'Microsoft Certified: Azure Security Engineer Associate'
+  issuer: Microsoft
+  date: 2022-01
+- name: 'Microsoft Certified: Azure AI Fundamentals'
+  issuer: Microsoft
+  date: 2022-03
+- name: 'Microsoft Certified: Azure Data Fundamentals'
+  issuer: Microsoft
+  date: 2022-02
+- name: 'Microsoft Certified: Azure Fundamentals'
+  issuer: Microsoft
+  date: 2021-12
+- name: CyberArk Defender
+  issuer: CyberArk
+  date: 2020-07
+- name: ITIL v3 Foundation
+  issuer: EXIN
+  date: 2011-11
+- name: MCSE – Private Cloud
+  issuer: Microsoft
+  date: 2015-07
+  license: F373-1859
+- name: MCSA – Windows Server 2012
+  issuer: Microsoft
+  date: 2014-09
+  license: E948-9951
+- name: MCSA – Windows 7
+  issuer: Microsoft
+  date: 2012-04
+  license: D993-0169
+- name: MCSA – Windows Server 2003
+  issuer: Microsoft
+  date: 2011-02
+  license: C819-8318
+- name: MCTS - Administering and Deploying System Center 2012 Configuration Manager
+  issuer: Microsoft
+  date: 2015-05
+  license: F292-6690
+- name: MCTS - Microsoft Exchange Server 2010, Configuration
+  issuer: Microsoft
+  date: 2013-02
+  license: E157-7519
+- name: MCTS - Microsoft Deployment Toolkit 2008, Desktop Deployment
+  issuer: Microsoft
+  date: 2011-08
+  license: D444-0707
+- name: MCTS - Microsoft System Center Configuration Manager 2007
+  issuer: Microsoft
+  date: 2011-01
+  license: C819-8330
+- name: MCTS - Windows Server 2008 R2, Desktop Virtualization
+  issuer: Microsoft
+  date: 2011-12
+  license: D594-8545
+- name: MCTS - Windows 7, Configuration
+  issuer: Microsoft
+  date: 2010-11
+  license: C819-8331
+- name: MCITP - Enterprise Desktop Administrator on Windows 7
+  issuer: Microsoft
+  date: 2010-12
+  license: C819-8332
+- name: 'MOS: Microsoft Office Excel 2010 Expert (77-888)'
+  issuer: Microsoft
+  date: 2013-11
+- name: Cisco Certified Entry Networking Technician
+  issuer: Cisco
+  date: 2011-07
+  date_end: 2014-06
+- name: BM-PM-408E-1 Manage Project Timeline
+  issuer: Singapore Workforce Skills Qualifications
+  date: 2013-08
