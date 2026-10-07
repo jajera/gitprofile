@@ -15,3 +15,19 @@ npm-debug.log*
 Thumbs.db
 *.swp
 .idea/
+
+# Local resume inbox / personal docs (may contain phone, email, ID)
+temp-resumes/
+John_D_Ajera*
+John_Ajera_*.pdf
+John_Ajera_*.docx
+John_Ajera_*.odt
+John_Ajera_Platform_Engineer.pdf
+
+# Resume: commit pool + scripts only. Keep applications private.
+resume/drafts/**
+!resume/drafts/.gitkeep
+resume/jobs/**
+!resume/jobs/.gitkeep
+resume/out/**
+!resume/out/.gitkeep

@@ -1,0 +1,455 @@
+bullets:
+- id: geonet-aws-migration
+  role_id: geonet-platform
+  tags:
+  - aws
+  - migration
+  - networking
+  - security
+  text: Heavily involved in GeoNet's migration to AWS, helping design, build, configure, and operationalise
+    cloud infrastructure and resolving platform, networking, security, and deployment blockers across
+    multiple migration workstreams.
+- id: geonet-aws-accounts-akl
+  role_id: geonet-platform
+  tags:
+  - aws
+  - networking
+  - accounts
+  text: Designed and configured multiple AWS accounts in the Auckland region, establishing the underlying
+    network connectivity and account foundations required to migrate and operate services independently
+    while maintaining controlled connectivity between environments.
+- id: geonet-multi-account-networking
+  role_id: geonet-platform
+  tags:
+  - aws
+  - networking
+  - transit-gateway
+  - vpc
+  text: Designed and implemented AWS multi-account networking, including VPC connectivity, inter-VPC routing,
+    AWS Transit Gateway, and inter-region connectivity, working across network, security, application,
+    and platform teams to unblock migrations and establish reliable service-to-service communication.
+- id: geonet-terraform-leadership
+  role_id: geonet-platform
+  tags:
+  - terraform
+  - iac
+  - aws
+  text: Provided significant hands-on Infrastructure as Code leadership using Terraform, developing and
+    reviewing reusable infrastructure, account configuration, networking, security, compute, and application
+    platform changes. Used Terraform as the primary mechanism for repeatable, reviewable, and consistent
+    AWS deployments.
+- id: geonet-unblock-e2e
+  role_id: geonet-platform
+  tags:
+  - aws
+  - troubleshooting
+  - iam
+  - dns
+  - networking
+  text: Unblocked AWS migration and deployment issues end-to-end, investigating problems across networking,
+    IAM, DNS, routing, security controls, containers, infrastructure, and application dependencies rather
+    than treating individual infrastructure components in isolation.
+- id: geonet-ecs-eks-hosting
+  role_id: geonet-platform
+  tags:
+  - aws
+  - ecs
+  - eks
+  - kubernetes
+  - terraform
+  text: Designed and operate AWS hosting for containerised web workloads on Amazon ECS and Kubernetes
+    on EKS, with infrastructure as code in Terraform so environments remain repeatable and reviewable.
+- id: geonet-rds-upgrade
+  role_id: geonet-platform
+  tags:
+  - aws
+  - rds
+  - postgresql
+  - database
+  text: Led Amazon RDS PostgreSQL upgrades from version 12 to the current supported release, planning
+    cutover, validating stability and security, and keeping a high-availability data path intact.
+- id: geonet-gha-cicd
+  role_id: geonet-platform
+  tags:
+  - github-actions
+  - cicd
+  text: Built and maintained GitHub Actions CI/CD for platform and application delivery; iterated on pipelines,
+    tests, and release processes rather than relying on big-bang changes.
+- id: geonet-datadog
+  role_id: geonet-platform
+  tags:
+  - datadog
+  - observability
+  text: Use Datadog to monitor platform health, surface problems early, and propose fixes with application,
+    network, and product owners — not only after incidents.
+- id: geonet-centos7-rhel8
+  role_id: geonet-platform
+  tags:
+  - linux
+  - rhel
+  - podman
+  - ecs
+  - modernization
+  text: Modernised CentOS 7 services onto RHEL 8 and Podman/ECS containers on-premises and in AWS, reducing
+    drift and making deployments more consistent.
+- id: geonet-waf
+  role_id: geonet-platform
+  tags:
+  - aws
+  - waf
+  - security
+  - cost
+  text: Moved GeoNet website traffic protection to AWS WAF with the DevOps, network, and application teams,
+    tightening security while reducing cost.
+- id: geonet-waf-detailed
+  role_id: geonet-platform
+  tags:
+  - aws
+  - waf
+  - security
+  - cost
+  text: Led cross-functional optimization of GeoNet websites, collaborating with devops, platform, network
+    teams, and application owners to reduce costs by migrating traffic protection to AWS WAF and implementing
+    effective traffic filtering and security configurations.
+  related:
+  - geonet-waf
+- id: geonet-linz-positionz
+  role_id: geonet-platform
+  tags:
+  - migration
+  - datacentre
+  - linz
+  - cost
+  text: Led consolidation of the LINZ Positionz real-time service into an existing data centre, coordinating
+    data, product, network, and platform teams so a second facility could close.
+- id: geonet-eks-gitops
+  role_id: geonet-platform
+  tags:
+  - eks
+  - kubernetes
+  - gitops
+  - argo-cd
+  - kustomize
+  text: Led Amazon EKS end-to-end across cluster architecture, governance, platform configuration, and
+    operations, and standardised GitOps with Argo CD and Kustomize overlays.
+- id: geonet-podman-to-eks
+  role_id: geonet-platform
+  tags:
+  - eks
+  - kubernetes
+  - podman
+  - gitops
+  - migration
+  text: Leading the migration of hundreds of Podman containers onto Amazon EKS, moving containerised services
+    from VM-hosted Podman to Kubernetes while retaining a consistent GitOps delivery path.
+- id: geonet-data-geonet-ecs-fastly
+  role_id: geonet-platform
+  tags:
+  - aws
+  - ecs
+  - s3
+  - fastly
+  - cdn
+  - terraform
+  - github-actions
+  - datadog
+  text: Platform lead for migrating https://data.geonet.org.nz to AWS ECS with a Fastly CDN frontend and
+    S3 static backend — implemented with Terraform and GitHub Actions CI/CD, and monitored via Datadog
+    dashboards and alerting, in collaboration with DevOps and data teams.
+- id: geonet-windows-hybrid
+  role_id: geonet-platform
+  tags:
+  - windows
+  - hybrid
+  text: Managed Windows-based workloads across on-prem and cloud environments.
+- id: geonet-terraform-puppet-iac
+  role_id: geonet-platform
+  tags:
+  - terraform
+  - puppet
+  - iac
+  text: Delivered and maintained Infrastructure as Code using Terraform and Puppet across AWS and on-prem
+    platforms.
+- id: ncs-sd-cicd-tanzu
+  role_id: ncs-senior-devops
+  tags:
+  - cicd
+  - gitlab
+  - tanzu
+  - docker
+  - python
+  text: Delivered automated CI/CD (GitLab, VMware Tanzu, Docker, Python) so teams could ship infrastructure
+    and config changes with less manual risk.
+- id: ncs-sd-provision-scale
+  role_id: ncs-senior-devops
+  tags:
+  - ansible
+  - terraform
+  - vmware
+  - servicenow
+  - azure
+  text: Automated server provision, deprovision, and scale (ServiceNow, Ansible, Terraform, VMware) and
+    Azure landing-zone style use cases in Terraform.
+- id: ncs-sd-firewall-pam
+  role_id: ncs-senior-devops
+  tags:
+  - ansible
+  - algosec
+  - palo-alto
+  - cisco
+  - cyberark
+  - security
+  text: Automated firewall rule and privileged-account workflows (Ansible, AlgoSec, Palo Alto, Cisco,
+    CyberArk) with clear ownership from request through production.
+- id: ncs-sd-firewall-detailed
+  role_id: ncs-senior-devops
+  tags:
+  - servicenow
+  - ansible
+  - algosec
+  - palo-alto
+  - cisco
+  text: Delivered automated firewall rules management with ServiceNow frontend and Ansible, AlgoSec, Palo
+    Alto, and Cisco backends.
+  related:
+  - ncs-sd-firewall-pam
+- id: ncs-sd-pam-detailed
+  role_id: ncs-senior-devops
+  tags:
+  - servicenow
+  - ansible
+  - cyberark
+  text: Delivered automated privileged user/service account management with ServiceNow frontend and Ansible
+    and CyberArk backends.
+  related:
+  - ncs-sd-firewall-pam
+- id: ncs-sd-health-security
+  role_id: ncs-senior-devops
+  tags:
+  - security
+  - compliance
+  - health-checks
+  text: Designed and implemented automated health checks, security compliance, and remediation for servers
+    and network devices.
+- id: ncs-sd-azure-terraform
+  role_id: ncs-senior-devops
+  tags:
+  - azure
+  - terraform
+  text: Developed Azure cloud use cases and infrastructure using Terraform.
+- id: ncs-sd-rca
+  role_id: ncs-senior-devops
+  tags:
+  - troubleshooting
+  - collaboration
+  text: Investigated and resolved technical issues; performed root cause analysis with frontend and backend
+    teams.
+- id: uob-chef-compliance
+  role_id: uob-cloud-automation
+  tags:
+  - chef
+  - compliance
+  - windows
+  - linux
+  - unix
+  text: Automated security-compliance orchestration with Chef across Windows, Red Hat, Solaris, AIX, and
+    HP-UX; analysed drift and recommended the highest-value remediations.
+- id: uob-automation-stuck
+  role_id: uob-cloud-automation
+  tags:
+  - jenkins
+  - bitbucket
+  - artifactory
+  - grafana
+  - cicd
+  text: Assessed existing operational processes and delivered automation that stuck — CI via Bitbucket/Jenkins,
+    artefacts in Artifactory, visibility in Grafana.
+- id: uob-grafana-compliance
+  role_id: uob-cloud-automation
+  tags:
+  - grafana
+  - compliance
+  - chef
+  text: Enhanced monitoring and dashboards with Grafana and data analytics from compliance reports.
+- id: uob-aws-azure-extend
+  role_id: uob-cloud-automation
+  tags:
+  - aws
+  - azure
+  text: Involved in cloud automation efforts extending to AWS and Azure.
+- id: ncs-ae-inspec-hardening
+  role_id: ncs-automation
+  tags:
+  - chef-inspec
+  - windows
+  - security
+  - hardening
+  text: Implemented Windows Server hardening baseline profile using Chef InSpec.
+- id: ncs-ae-sccm-dp
+  role_id: ncs-automation
+  tags:
+  - sccm
+  - ansible
+  - algosec
+  - chef-inspec
+  text: Led delivery of the automated SCCM DP server provisioning workflow using AlgoSec, Ansible and
+    Chef InSpec.
+- id: ncs-ae-sccm-boundary
+  role_id: ncs-automation
+  tags:
+  - sccm
+  - ansible
+  - algosec
+  text: Led delivery of automated SCCM Boundary onboarding using AlgoSec and Ansible.
+- id: ncs-ae-platform-automation
+  role_id: ncs-automation
+  tags:
+  - ansible
+  - chef-inspec
+  - compliance
+  text: Designed and ran platform automation for configuration baselines and security compliance; shipped
+    Chef InSpec Windows hardening and Ansible-driven SCCM distribution-point and boundary onboarding.
+  related:
+  - ncs-ae-inspec-hardening
+  - ncs-ae-sccm-dp
+  - ncs-ae-sccm-boundary
+- id: ncs-ae-mentor
+  role_id: ncs-automation
+  tags:
+  - mentoring
+  - collaboration
+  text: Mentored junior engineers and supported cross-team collaboration for platform improvements.
+- id: sccm-ha-dual-dc
+  role_id: ncs-senior-systems
+  tags:
+  - sccm
+  - ha
+  - architecture
+  text: Architected and implemented a highly available SCCM 2012 R2 infrastructure across two data centres.
+- id: sccm-2007-to-2012
+  role_id: ncs-senior-systems
+  tags:
+  - sccm
+  - migration
+  text: Migrated clients and Distribution Point servers from SCCM 2007 to 2012.
+- id: sccm-http-https
+  role_id: ncs-senior-systems
+  tags:
+  - sccm
+  - security
+  - https
+  text: Migrated SCCM infrastructure from HTTP to HTTPS.
+- id: sccm-current-branch
+  role_id: ncs-senior-systems
+  tags:
+  - sccm
+  - upgrade
+  text: Led the upgrade (planning, documentation, testing and implementation) of SCCM 2012 R2 to Current
+    Branch 1606, 1610 and 1702 with update rollup.
+- id: sccm-100k-summary
+  role_id: ncs-senior-systems
+  tags:
+  - sccm
+  - architecture
+  - govtech
+  text: 'Senior escalation and architecture for SCCM managing 100,000+ workstations and servers: highly
+    available dual-datacentre design, 2007→2012 and HTTP→HTTPS migrations, and staged Current Branch upgrades.'
+  related:
+  - sccm-ha-dual-dc
+  - sccm-2007-to-2012
+  - sccm-http-https
+  - sccm-current-branch
+- id: sccm-stakeholder
+  role_id: ncs-senior-systems
+  tags:
+  - stakeholders
+  - delivery
+  text: Worked with stakeholders on feasibility, risk, and delivery — large-scale platform change with
+    little margin for error.
+- id: sony-powershell-ad-exchange
+  role_id: sony-senior-it
+  tags:
+  - powershell
+  - ad
+  - exchange
+  - monitoring
+  text: Introduced PowerShell scripts for AD replication and MS Exchange monitoring/reporting of queue,
+    mail traffic, database size and disk space — a more proactive monitoring approach.
+- id: sony-vbnet-ops-app
+  role_id: sony-senior-it
+  tags:
+  - vbnet
+  - ad
+  - exchange
+  - ocs
+  - automation
+  text: Developed a VB.Net application to automate daily operations tasks for AD, Exchange and OCS, resulting
+    in faster, standardised account/ops creation.
+- id: sony-sccm-framework
+  role_id: sony-senior-it
+  tags:
+  - sccm
+  text: Created an SCCM 2012 R2 migration and operations framework for client management.
+- id: sony-regional-escalation
+  role_id: sony-senior-it
+  tags:
+  - escalation
+  - regional
+  text: Regional escalation for Asia, Australia, and South Africa. Introduced PowerShell monitoring for
+    AD and Exchange and automated daily AD/Exchange/OCS operations.
+  related:
+  - sony-powershell-ad-exchange
+  - sony-vbnet-ops-app
+- id: sony-mdt-25pct
+  role_id: sony-desktop-lead
+  tags:
+  - mdt
+  - os-deployment
+  - automation
+  text: Automated OS deployment using Microsoft Deployment Toolkit (MDT), cutting process time by ~25%
+    with less engineer interaction.
+- id: sony-sccm-remote
+  role_id: sony-desktop-lead
+  tags:
+  - sccm
+  - remote-support
+  text: Used SCCM Remote Tools to support users remotely and reduce onsite visits.
+- id: sony-sccm-patch-apps
+  role_id: sony-desktop-lead
+  tags:
+  - sccm
+  - patching
+  text: Configured SCCM to remotely install applications and security updates on multiple computers, eliminating
+    manual installs.
+- id: sony-mcafee-99
+  role_id: sony-desktop-lead
+  tags:
+  - mcafee
+  - compliance
+  - security
+  text: Reached McAfee antivirus compliance goal of >=99 percent.
+- id: sony-batch-vb-script
+  role_id: sony-desktop-lead
+  tags:
+  - scripting
+  - automation
+  text: Introduced Batch and VB scripting to automate installation of one or more applications on a single
+    computer.
+- id: sony-backlog-recovery
+  role_id: sony-desktop-lead
+  tags:
+  - service-delivery
+  text: Recovered from incident/request backlogs left by previous management and restored customer trust
+    and confidence.
+- id: sony-desktop-collapsed
+  role_id: sony-desktop-lead
+  tags:
+  - mdt
+  - sccm
+  - leadership
+  text: Led desktop engineers across Singapore sites; cut OS deployment time by ~25% with MDT; used SCCM
+    for remote support, application, and patch rollout.
+  related:
+  - sony-mdt-25pct
+  - sony-sccm-remote
+  - sony-sccm-patch-apps

@@ -1,0 +1,54 @@
+training:
+- name: Developing in AWS
+  date: 2024-07
+  provider: Bespoke Training Services
+- name: Cloud Operations on AWS
+  date: 2023-11
+  provider: Bespoke Training Services
+- name: Architecting on AWS
+  date: 2023-07
+  provider: Bespoke Training Services
+- name: 'HashiCorp Certified: Terraform Associate 2020'
+  date: 2020-07
+  provider: Udemy
+- name: Red Hat System Administration II
+  date: 2020-01
+  provider: Red Hat
+- name: Automation with Ansible I
+  date: 2018-01
+  provider: Red Hat
+- name: Chef Short Courses
+  date: 2020-07
+  provider: Chef
+  modules:
+  - Transform Your Organization with DevOps
+  - Validate Infrastructure Code with Test Kitchen
+  - Deliver Applications with Chef Habitat
+  - Secure Your Infrastructure with Chef Automate
+  - 'Chef Compliance: First Steps with Auditing and Remediation'
+  - Test Expectations with Chef InSpec
+  - Manage Your Fleet with Chef Infra
+- name: MOS Excel 2010 Expert
+  date: 2013-11
+  provider: Comat
+- name: 'Course 20336B: Core Solutions of Microsoft Lync Server 2013'
+  date: 2013-09
+  provider: NetAssist
+- name: Cloud Computing Workshop
+  date: 2013-06
+  provider: New Horizons
+- name: Systems Center 2012 Workshop
+  date: 2013-06
+  provider: New Horizons
+- name: Understanding UNIX on Mac and Troubleshooting Techniques in Mac
+  date: 2009-08
+  provider: POWER MAC CENTER
+- name: Fundamentals of Mac OS X and Mac OS X Advanced
+  date: 2009-08
+  provider: POWER MAC CENTER
+- name: Administering Windows 2003 Server
+  date: 2009-02
+  provider: RIVAN IT TRAINING SYSTEMS
+- name: 640-802 Cisco Certified Network Associate Bootcamp
+  date: 2009-01
+  provider: RIVAN IT TRAINING SYSTEM

@@ -1,0 +1,14 @@
+claims:
+- id: data-geonet-migration
+  related_bullets:
+  - geonet-data-geonet-ecs-fastly
+  - geonet-rds-upgrade
+  - geonet-centos7-rhel8
+  text: As Platform Engineer at Earth Sciences NZ, led the platform migration of https://data.geonet.org.nz
+    from legacy on-prem infrastructure to AWS, including a Fastly CDN frontend backed by an S3-hosted
+    static site, managed through Terraform, with GitHub Actions CI/CD and Datadog observability and alerting.
+    Also led RDS PostgreSQL upgrades and containerized services using Podman and ECS.
+- id: public-private-automation
+  text: Delivered automation and infrastructure solutions for both private and public sectors — including
+    automated provisioning, security compliance, and IAM integration using Terraform, Ansible, CyberArk,
+    and ServiceNow.

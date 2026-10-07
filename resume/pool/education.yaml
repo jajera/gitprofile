@@ -1,0 +1,27 @@
+education:
+- id: bsc-cs
+  credential: Bachelor of Science in Computer Science
+  institution: University of the East
+  location: Manila, Philippines
+  start: '2002'
+  end: '2005'
+  highlights:
+  - 1st Place in the IT Battle of the Brains
+  - Highest possible grade in Thesis (Project Leader)
+- id: ite-computer-technician
+  credential: Computer Technician (ITE Certificate)
+  institution: Capiz Institute of Electronics
+  location: Roxas City, Philippines
+  start: '2000'
+  end: '2002'
+  highlights:
+  - Graduate Gold Medalist (equivalent to 1st honorable mention)
+- id: ite-industrial-electronics
+  credential: Industrial Electronics Technician (ITE Certificate)
+  institution: Capiz Institute of Electronics
+  location: Roxas City, Philippines
+  start: '2000'
+  end: '2002'
+  highlights:
+  - Graduated Silver Medalist (equivalent to 2nd honorable mention)
+  - Gold Medalist in the Consumer Electronics Mechanic Provincial Skills Competition

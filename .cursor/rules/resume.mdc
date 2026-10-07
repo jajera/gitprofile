@@ -1,0 +1,46 @@
+---
+description: Resume pool and JD-matched resume workflow (draft-first, ATS plain text)
+globs: resume/**/*
+alwaysApply: false
+---
+
+# Resume workflow
+
+## Source of truth
+
+- Career facts live only in `resume/pool/*.yaml` (including `projects.yaml` for hackathons and personal lab).
+- Do not invent employers, dates, metrics, tools, or certifications.
+- Label personal-lab work clearly (not as employer experience).
+- Reword pool text for the JD; do not add new claims.
+- No phone, email, or street address. Links: LinkedIn, GitHub, website only.
+- NZ-focused applications. Singapore roles are historical experience.
+
+## Draft first, PDF last
+
+1. Save the JD under `resume/jobs/<slug>.md` (or paste in chat).
+2. Write a **plain-text draft** at `resume/drafts/<slug>.txt` (and optional selection YAML at `resume/jobs/<slug>.yaml`).
+3. Iterate on the `.txt` until the user is happy.
+4. **Do not create a PDF** unless the user explicitly says the draft is final (e.g. "final", "make pdf", "export pdf").
+5. Final PDF goes to `resume/out/<Name>_<Employer>_<Role>.pdf`.
+
+## Writing style (ATS plain text)
+
+- Natural English. Short, clear sentences. Sound human, not marketing.
+- Prefer plain ASCII: hyphen `-`, colon `:`, commas. Avoid em dashes `—`, en dashes `–` in body copy, smart quotes, and bullet glyphs other than `-` or `*`.
+- Avoid AI tells: dense em-dash lists, "leverage/utilize/passionate about", filler adjectives.
+- Lead bullets with a strong verb and a concrete outcome when the pool supports it.
+- Only claim tools and experience present in the pool (even if the JD asks for more).
+
+## Selection
+
+- Prefer bullets and skills that match the JD; drop weak matches.
+- Prefer certs the JD names when they exist in the pool.
+- Page length: whatever the draft needs; do not pad.
+
+## PDF render
+
+Use `resume/scripts/render_pdf.py` for finals.
+
+- Body and bullets: near-black ink.
+- `Technologies:` lines are a highlight: **bold label + dark ink** (same black as body). Never muted grey or light italic-only.
+- Dates/contact may stay slightly muted.
